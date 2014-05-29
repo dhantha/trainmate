@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?>
+<ib miid="BOM00773" doc-type="IP" maint-item-desc="Contract" doc-name="BOM00773_IP_0002" doc-title="MIM TS INTRO" lock-counter="20" search-index="" show-e-list="no" e-list-number="" giid-maint-item-desc="Contract" id-document="4143" id-document-version="305146" doc-version="8" pmt-version="77" sro-title="Introduction" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name="">
+	<integration-paragraph>
+		<title id="ID200951922561818162">Troubleshooting</title>
+		<topic>
+			<para>Before fault isolation, perform a thorough visual equipment
+inspection to determine if a malfunction is being caused by some
+obvious defect such as a damaged component, defective wiring, etc.
+Otherwise, fault isolation should follow a logical sequence designed
+to isolate a malfunction to a single component.</para>
+			<safety>
+				<hazard level="notification" symbol="warning1">
+					<hazard-desc>Before deciding that a system/subsystem is malfunctioning,
+check that all related circuit breakers, switches, control devices,
+and valves are set properly for normal operation.</hazard-desc>
+				</hazard>
+			</safety>
+			<para>The fault isolation chart lists the symptoms most likely to
+occur and suggests probable causes, identification and corrective
+actions. The chart is made up of five columns. The first column,
+FAULT CODE, lists the fault codes and diagnostic code if applicable
+as found in the Interface Control Documents. The second column,
+SYMPTOM, lists various failure symptoms. The third, PROBABLE CAUSE,
+suggests at least one probable cause of a particular failure. The
+fourth column, CHECK/INSPECT, suggests an action to identify each
+probable cause, and the fifth column, CORRECTIVE ACTION, suggests
+a corrective action. Both Inspect/Check and Corrective Action columns, when
+applicable, refer to a task or document containing information that
+could be of use to the reader. If a troubleshooting task is complex,
+involves special tools, or requires illustration for understanding,
+a TS task, to be found in the Maintenance Procedures, is referenced.</para>
+		</topic>
+	</integration-paragraph>
+</ib>

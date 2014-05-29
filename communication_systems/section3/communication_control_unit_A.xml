@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="BOM00764" doc-type="TASK" maint-item-desc="Communication Control Unit" part-number="05384100162S" task-code="A" doc-name="BOM00764_TASK_A" doc-title="Communication Control Unit Inspection (Periodic)" lock-counter="29" search-index="mim-sys9-mp" show-e-list="yes" e-list-number="09 01 04" giid-maint-item-desc="Communication Control Unit" id-document="5866" id-document-version="342746" doc-version="8" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name="CCU"><task maintenance-level="" craft="" training-required="False" ref-task-no="" safety-hazard="False" personal-safety-equip="False" undocumented="False" service-interval="92" interval-unit="DAYS" estimated-time="0" task-use-on-code="CST" safety-related-task="False"><pre-task><applicable-cars>C Car, S Car, T Car</applicable-cars><equipment-conditions><list type="enumerated" reuse="all"><list-item><para reuse="all">Wheels
+chocked.</para></list-item><list-item><para reuse="all">Circuit breaker <verbatim>DOOR CONTROL CB33</verbatim> switched
+to OFF.</para></list-item><list-item><para reuse="all">Circuit breaker <verbatim>PA AMPLIFIER CB47</verbatim> switched
+to OFF.</para></list-item><list-item><para reuse="all">Circuit breaker <verbatim>COMMUNICATION
+SYSTEM CB48</verbatim> switched to OFF.</para></list-item></list></equipment-conditions><ref-docs><title>None.</title></ref-docs><maint-equipment reuse="all"><tools><equipment-item><title id="ID20077171719545413">Flashlight</title></equipment-item></tools><special-tools><equipment-item><title id="ID20077171719547413">NJ Transit Coach Key</title></equipment-item></special-tools></maint-equipment></pre-task><activity><title id="ID20065181313333323">Inspect Communication
+Control Unit </title><safety reuse="all"><hazard level="notification" symbol="note"><hazard-desc>If the inspection determines that corrective maintenance
+is required, report it to your supervisor to ensure that proper
+corrective action is taken.</hazard-desc></hazard></safety><illustration reuse="all"><graphic file="..\..\Graphics\CGM\053J-732-009.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title id="ID20065181313334023">CCU Inspection</title></illustration><step><para reuse="all">Unlock locker L1 access door using NJ
+Transit coach key.</para></step><step><para reuse="all">Remove electronics rack shield/cover.</para></step><safety reuse="all"><hazard level="warning" symbol="electrical"><hazard-desc>Cables connected to locker equipment can cause electrical
+shock. Exercise care whenever accessing any of the lockers. Failure
+to do so may result in injury or death.</hazard-desc></hazard></safety><safety reuse="all"><hazard level="warning" symbol="electrical"><hazard-desc>The following steps are performed while some locker
+equipment could be powered. Exercise care whenever near powered
+equipment. Failure to do so may result in injury or death.</hazard-desc></hazard></safety><step><para reuse="all">Inspect Communication Control Unit (CCU) unit (<ref-container><label>8</label><graphic-ref ref-id="CBBFHDGC" callout="8"></graphic-ref></ref-container>)
+case and connected car wiring for accumulation of debris or dirt.
+If necessary, remove dust, dirt, or debris using soft bristle brush. </para></step><step><para reuse="all">Inspect CCU case for damage or corrosion.</para></step><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0020.cgm" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title id="ID200771717195414713">CCU Internal Inspection</title></illustration><step><para reuse="all">Inspect interior of CCU case as follows:</para><step><para reuse="all">Unfasten 12 screws (<ref-container><label>14</label><graphic-ref ref-id="CBBFHDGC" callout="14"></graphic-ref></ref-container>) securing
+hinged face plate (<ref-container><label>15</label><graphic-ref ref-id="CBBFHDGC" callout="15"></graphic-ref></ref-container>). </para></step><step><para reuse="all">Open face plate and inspect circuit card
+assemblies and card cage for debris or dirt. If necessary, use vacuum
+cleaner to remove dirt and debris.</para></step><step><para reuse="all">Using flashlight directed inside gap at
+top of CCU case, inspect for debris or dirt accumulation blocking
+airflow through perforations on top of case. If necessary, remove
+CCU case from locker structure and remove dust, dirt, or debris
+using soft bristle brush. </para></step><step><para reuse="all">Close hinged face plate (<ref-container><label>15</label><graphic-ref ref-id="CBBFHDGC" callout="15"></graphic-ref></ref-container>)
+and secure in place with 12 screws (<ref-container><label>14</label><graphic-ref ref-id="CBBFHDGC" callout="14"></graphic-ref></ref-container>). </para></step></step><step><para reuse="all">Ensure that Torque-Seal is present and
+intact on fasteners (<ref-container><label>13</label><graphic-ref ref-id="CBBFHDGC" callout="13"></graphic-ref></ref-container>) securing
+CCU enclosure to locker structure.</para></step><step><para reuse="all">Inspect insulation of cables connected
+to following CCU connectors for nicks, cuts, fraying, and signs
+of burning:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Connector <verbatim>J1-POWER</verbatim> (<ref-container><label>1</label><graphic-ref ref-id="CBBFHDGC" callout="1"></graphic-ref></ref-container>)</para></list-item><list-item><para reuse="all">Connector <verbatim>J2-PTE</verbatim> (<ref-container><label>2</label><graphic-ref ref-id="CBBFHDGC" callout="2"></graphic-ref></ref-container>)</para></list-item><list-item><para reuse="all">Connector <verbatim>J3-SERIAL</verbatim> (<ref-container><label>3</label><graphic-ref ref-id="CBBFHDGC" callout="3"></graphic-ref></ref-container>)</para></list-item><list-item><para reuse="all">Connector <verbatim>J4-WORLDFIP</verbatim> (<ref-container><label>4</label><graphic-ref ref-id="CBBFHDGC" callout="4"></graphic-ref></ref-container>)</para></list-item><list-item><para reuse="all">Connector <verbatim>J5-SPEAKER</verbatim> (<ref-container><label>5</label><graphic-ref ref-id="CBBFHDGC" callout="5"></graphic-ref></ref-container>)</para></list-item><list-item><para reuse="all">Connector <verbatim>J6-ACB</verbatim> (<ref-container><label>6</label><graphic-ref ref-id="CBBFHDGC" callout="6"></graphic-ref></ref-container>)</para></list-item><list-item><para reuse="all">Connector <verbatim>J7-TRAINLINE</verbatim> (<ref-container><label>7</label><graphic-ref ref-id="CBBFHDGC" callout="7"></graphic-ref></ref-container>).</para></list-item></list></step><step><para reuse="all">Inspect insulation of ground wire connected
+to ground stud (<ref-container><label>12</label><graphic-ref ref-id="CBBFHDGC" callout="12"></graphic-ref></ref-container>)
+for nicks, cuts, fraying, and signs of burning.</para></step><step><para reuse="all">Restore power to CCU:</para><list type="enumerated" reuse="all"><list-item><para reuse="all">Switch
+circuit breaker <verbatim>DOOR CONTROL CB33</verbatim> to ON.</para></list-item><list-item><para reuse="all">Switch circuit breaker <verbatim>PA
+AMPLIFIER CB47</verbatim> to ON.</para></list-item><list-item><para reuse="all">Switch circuit breaker <verbatim>COMMUNICATION
+SYSTEM CB48</verbatim> to ON. </para></list-item></list></step><step><para reuse="all">Ensure CCU toggle switch <verbatim>POWER</verbatim> is
+set to position <verbatim>ON</verbatim>. </para></step><step><para reuse="all">Press momentary pushbutton <verbatim>CCU
+LAMP TEST</verbatim> and ensure following CCU indicators are as
+indicated:</para><list type="bulleted" reuse="all"><list-item><para reuse="all"><verbatim>PC
+CARD ACT</verbatim> is ON (green)</para></list-item><list-item><para reuse="all"><verbatim>CCU POWER</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>CCU HEALTH</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>CCU FAULT</verbatim> is
+ON red)</para></list-item><list-item><para reuse="all"><verbatim>FTT LON TX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>FTT RX</verbatim> is on
+(green)</para></list-item><list-item><para reuse="all"><verbatim>FTT SRV</verbatim> is ON
+yellow)</para></list-item><list-item><para reuse="all"><verbatim>PLT LON TX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PLT RX</verbatim> is ON
+(green)</para></list-item><list-item><para reuse="all"><verbatim>PLT SRV</verbatim> is ON
+yellow)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP TX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP A1 RX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP A2 RX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP B1 RX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP B2 RX</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP BPASS END 1</verbatim> is
+ON (yellow)</para></list-item><list-item><para reuse="all"><verbatim>WORLDFIP BPASS END 2</verbatim> is
+ON (yellow)</para></list-item><list-item><para reuse="all"><verbatim>LVDN OK</verbatim> is ON
+(green)</para></list-item><list-item><para reuse="all"><verbatim>LVDN LOW</verbatim> is
+ON (yellow)</para><para reuse="all"><verbatim>ACN TX</verbatim> is ON (green)</para></list-item><list-item><para reuse="all"><verbatim>ACN RX</verbatim> is ON
+(green)</para></list-item><list-item><para reuse="all"><verbatim>ANALOG TL ACT</verbatim> is
+ON (green). </para></list-item></list></step><step><para reuse="all">Press momentary pushbutton <verbatim>PAA
+LAMP TEST</verbatim> and ensure following CCU indicators are as
+indicated:</para><list type="bulleted" reuse="all"><list-item><para reuse="all"><verbatim>PAA
+POWER</verbatim> is ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PAA CHIME 1</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PAA CHIME 2</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PAA CHIME 3</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PAA CHIME 4</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PAA CHIME 5</verbatim> is
+ON (green)</para></list-item><list-item><para reuse="all"><verbatim>PAA CHIME 6</verbatim> is
+ON (green). </para></list-item></list></step><step><para reuse="all">Ensure fasteners (<ref-container><label>13</label><graphic-ref ref-id="CBBFHDGC" callout="13"></graphic-ref></ref-container>) securing
+unit are tightly bolted to locker structure.</para></step><step><para reuse="all">Replace electronics rack shield/cover.</para></step><step><para reuse="all">Close and lock locker L1 access door using
+NJ Transit coach key.</para></step></activity><follow-on-tasks><para reuse="all">None</para></follow-on-tasks></task></ib>

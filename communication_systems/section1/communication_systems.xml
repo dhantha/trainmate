@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="OER00001" doc-type="DESC" maint-item-desc="Communication System" doc-name="OER00001_DESC" doc-title="Communication System" lock-counter="17" search-index="mim-sys9-dno" show-e-list="yes" e-list-number="09" giid-maint-item-desc="Communication System" id-document="3507" id-document-version="342705" doc-version="5" pmt-version="6" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name=""><description><section reuse="all"><title id="ID20065199454541">Communication,
+Radio, and Destination Sign System</title><para reuse="all">The NJ Transit Communication, Radio, and Destination
+Sign System (CRDSS) is designed to operate in a train of a maximum
+of 10 cars. The functionality of CRDSS equipment installed in the
+multi-level commuter passenger cars differs by car type, as described
+following table.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID20065199454571">CRDSS Functionality By Car Type</title><tgroup cols="4" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="5.340in"></colspec><colspec colnum="2" colname="2" colwidth="0.563in"></colspec><colspec colnum="3" colname="3" colwidth="0.563in"></colspec><colspec colnum="4" colname="4" colwidth="0.563in"></colspec><thead><row rowsep="1"><entry colname="1" morerows="1">FUNCTIONALITY</entry><entry namest="2" nameend="4">CAR TYPE</entry></row><row rowsep="1"><entry colname="2">C CAR</entry><entry colname="3">T CAR</entry><entry colname="4">S CAR</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="left">Public Address (PA) announcements
+heard on the PA speakers through an operator panel such as the Cab
+Communication Control Panel (CCCP) or any of the Communication Control
+Panels (CCP).</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X (1)</entry><entry colname="4" align="center">X (1)</entry></row><row rowsep="1"><entry colname="1" align="left">Manual PA digital recording</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">-</entry><entry colname="4" align="center">-</entry></row><row rowsep="1"><entry colname="1" align="left">Intercom (IC) communications
+between a CCCP or a CCP </entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X (1)</entry><entry colname="4" align="center">X (1)</entry></row><row rowsep="1"><entry colname="1" align="left">Passenger Emergency Intercom
+(PEI) communications with a CCCP or a CCP</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X (1)</entry><entry colname="4" align="center">X (1)</entry></row><row rowsep="1"><entry colname="1" align="left">VHF train radio communication
+using the CCCP </entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">-</entry><entry colname="4" align="center">-</entry></row><row rowsep="1"><entry colname="1" align="left">Voice (audio) database file
+storage and playback</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X (2)</entry><entry colname="4" align="center">X (2)</entry></row><row rowsep="1"><entry colname="1" align="left">Destination sign (text) database
+file storage</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Station announcements (part
+of the destination sign database) displayed on the Interior Message
+Signs (IMS) and heard over the PA speakers</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Special message announcements
+(part of the destination sign database) displayed on the IMS and
+heard over the PA speakers</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Public message announcements
+(part of the destination sign database) displayed on the IMS</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Pager messages displayed on
+the IMS</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Destination station displayed
+on the Front Destination Sign (FDS)</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">-</entry><entry colname="4" align="center">-</entry></row><row rowsep="1"><entry colname="1" align="left">Destination station displayed
+on the Side Destination Signs (SDS)</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Portable Test Equipment (PTE)
+used to help diagnose the equipment</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">Door chime audio announcements</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="1"><entry colname="1" align="left">PEI chime audio announcements</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row><row rowsep="0"><entry colname="1" align="left">PEI visual announcements</entry><entry colname="2" align="center">X</entry><entry colname="3" align="center">X</entry><entry colname="4" align="center">X</entry></row></tbody></tgroup></table><safety reuse="all"><hazard level="notification" symbol="warning1"><hazard-desc>(1) Functionality executed with the CCP only. CCCP
+only installed in C Cars.</hazard-desc></hazard><hazard level="notification" symbol="warning1"><hazard-desc>(2) Playback in cab car only.</hazard-desc></hazard></safety><section reuse="all"><title id="ID20065199454631">Train Level
+Interfaces</title><para reuse="all">The NJ Transit Door &amp; Communication Trainline
+(DCTL) and WorldFIP Data Train Network (DTN) are used by the CRDSS
+to interface within the multi-level cars and with older NJ Transit
+fleets for all train-level communications. The CRDSS is compatible
+with the Comet V car’s DTN for digital operations and with the DCTL
+for baseband analog and discrete operations specifications. The
+DCTL combines analog audio lines, a LonWorks digital network, and
+a discrete trainline, whereas the DTN, more specifically the WorldFIP DTN,
+regroups both digital audio channels and digital data in the redundant
+WorldFIP digital networks.</para><para reuse="all">Figure <ref-container><iref ref-id="BGBJBEGJ"></iref></ref-container> shows
+the train-level interfaces of the CRDSS.</para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0009.cgm" impsize="6.985in 3.977in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="4.000in" nsoffset="0.000in" id="ID200651994541751"></graphic><title id="BGBJBEGJ">Train-level Interfaces</title></illustration><para reuse="all">The CRDSS can be interconnected with all NJ
+Transit cars compatible with either the DCTL or the DTN WorldFIP
+networks. The following paragraphs describe both the DCTL and the
+DTN, give the possible train topologies compatible with the CRDSS,
+and explain the limitations of the older generations of NJ Transit
+fleets with the multi-level CRDSS functions. </para><section reuse="all"><title id="ID200651994542931">DCTL Interface
+Description</title><para reuse="all">The DCTL, a 27 wire trainline, is a combination
+of PA/IC baseband audio lines, discrete PA control trainline, and
+a LonWorks digital network superimposed on the IC baseband audio
+line through a LonWorks PLT-10A Power Line Transceiver. This LonWorks
+network constitutes a Communication Control Network (CCN), considering
+it carries control messages such as “Station ID”, “Special Message ID”,
+“Public ID”, “Pager” string, and “ODK Lock” state.</para><para reuse="all">Of the 27 wires of the DCTL, the wires used
+by the CRDSS are presented in the following table.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID200651994544151">DCTL Wires Assigned To CRDSS</title><tgroup cols="7" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="0.375in"></colspec><colspec colnum="2" colname="2" colwidth="0.875in"></colspec><colspec colnum="3" colname="3" colwidth="1.125in"></colspec><colspec colnum="4" colname="4" colwidth="0.875in"></colspec><colspec colnum="5" colname="5" colwidth="0.875in"></colspec><colspec colnum="6" colname="6" colwidth="1.438in"></colspec><colspec colnum="7" colname="7" colwidth="1.438in"></colspec><thead><row rowsep="1"><entry colname="1">PIN</entry><entry colname="2">WIRE SIZE AWG</entry><entry colname="3">DESIGNATION</entry><entry colname="4">SIGNAL POWER SOURCE</entry><entry colname="5">SENDER</entry><entry colname="6">DESCRIPTION</entry><entry colname="7">FUNCTION</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">8</entry><entry colname="2" align="center">12</entry><entry colname="3" align="center">GBN</entry><entry colname="4" align="center">Car B-</entry><entry colname="5" align="center">All cars</entry><entry colname="6" align="left">Car battery negative</entry><entry colname="7" align="left">Car battery negative</entry></row><row rowsep="1"><entry colname="1" align="center">14</entry><entry colname="2" align="center">14SH</entry><entry colname="3" align="center">CB</entry><entry colname="4" align="center"></entry><entry colname="5" align="center">Any vehicle</entry><entry colname="6" align="left">IC signal DCTL CCN (LonWorks
+PLT-10A)</entry><entry colname="7" align="left">IC signal DCTL CCN (LonWorks
+PLT-10A)</entry></row><row rowsep="1"><entry colname="1" align="center">15</entry><entry colname="2" align="center">14SH</entry><entry colname="3" align="center">CW</entry><entry colname="4" align="center"></entry><entry colname="5" align="center">Any vehicle</entry><entry colname="6" align="left">IC signal DCTL CCN (LonWorks
+PLT-10A)</entry><entry colname="7" align="left">IC signal DCTL CCN (LonWorks
+PLT-10A)</entry></row><row rowsep="1"><entry colname="1" align="center">19</entry><entry colname="2" align="center">14SH</entry><entry colname="3" align="center">PA</entry><entry colname="4" align="center">Car B+</entry><entry colname="5" align="center">Any vehicle</entry><entry colname="6" align="left">PA control</entry><entry colname="7" align="left">PA/IC audio control</entry></row><row rowsep="1"><entry colname="1" align="center">20</entry><entry colname="2" align="center">14SH</entry><entry colname="3" align="center">PW</entry><entry colname="4" align="center"></entry><entry colname="5" align="center">Any vehicle</entry><entry colname="6" align="left">PA signal</entry><entry colname="7" align="left">PA audio</entry></row><row rowsep="0"><entry colname="1" align="center">21</entry><entry colname="2" align="center">14SH</entry><entry colname="3" align="center">PB</entry><entry colname="4" align="center"></entry><entry colname="5" align="center">Any vehicle</entry><entry colname="6" align="left">PA signal</entry><entry colname="7" align="left">PA audio</entry></row></tbody></tgroup></table><para reuse="all">Both the PA audio lines and the PA discrete
+control line are used to broadcast a manual PA throughout the train.
+Prerecorded digital audio files are broadcasted on this same PA
+audio line from the audio master. Only CCUs on multi-level C Cars
+hold an instance of the voice database for playback. However, all
+CCUs (that is, CCUs on any multi-level car) hold an instance of
+the voice database for interchangeability between different car
+types. The triggering of the message is performed on the CCN instead
+of the PA control line. This allows an upcoming manual PA to interrupt
+the playback of a digital audio message using the PA control line.</para><para reuse="all">The IC audio line is used for the point-to-point
+audio connection between two operator panels (CCCP or CCP).</para><para reuse="all">The CCN is used for various controls such as
+train Identification (ID) heartbeat, station announcement ID, special
+and public message ID, PEI message, and pager messages. It is also
+used for operator access control, PAA muting, PA car number, and
+PEI control.</para><para reuse="all">When a destination sign database message (such
+as a station announcement, a special message, or a public message)
+needs to be broadcasted, the message ID is transmitted on the CCN and
+received by every CCU. With their local destination sign database,
+every CCU searches for the corresponding text message and displays
+it on its IMS. As indicated above, the prerecorded audio file associated
+to the destination sign database message is then played back on
+the PA audio line.</para></section><section reuse="all"><title id="ID200651994545411">DTN (WorldFIP
+Communication Network) Interface Description</title><para reuse="all">The DTN is a redundant WorldFIP digital network
+consisting of two pairs of twisted shielded wires. The CCU operates
+on the DTN when no DCTL type cars are part of the train. The DTN
+network is used on the Comet V cars, and on the C Car, S Car, and
+T Car CCUs of the multi-level cars that are interoperable with the
+Comet V cars.</para><para reuse="all">The DTN WorldFIP communication network pin assignment
+is presented in the following table. </para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID200651994547391">DTN Trainline Wire Assignments</title><tgroup cols="6" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="0.375in"></colspec><colspec colnum="2" colname="2" colwidth="0.875in"></colspec><colspec colnum="3" colname="3" colwidth="1.375in"></colspec><colspec colnum="4" colname="4" colwidth="0.875in"></colspec><colspec colnum="5" colname="5" colwidth="2.125in"></colspec><colspec colnum="6" colname="6" colwidth="1.375in"></colspec><thead><row rowsep="1"><entry colname="1">PIN</entry><entry colname="2">WIRE SIZE AWG</entry><entry colname="3">DESIGNATION</entry><entry colname="4">SENDER</entry><entry colname="5">DESCRIPTION</entry><entry colname="6">FUNCTION</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">7</entry><entry colname="2" align="center">18SH</entry><entry colname="3">COMM1+ /2+</entry><entry colname="4">Any vehicle</entry><entry colname="5">Digital communications network</entry><entry colname="6">Communications network</entry></row><row rowsep="1"><entry colname="1" align="center">9</entry><entry colname="2" align="center">SH</entry><entry colname="3">COMM1-SH /2-SH</entry><entry colname="4">Any vehicle</entry><entry colname="5">Shield for digital communications network</entry><entry colname="6">Communications network</entry></row><row rowsep="0"><entry colname="1" align="center">11</entry><entry colname="2" align="center">18SH</entry><entry colname="3">COMM1- /2-</entry><entry colname="4">Any vehicle</entry><entry colname="5">Digital communications network Communications
+network</entry><entry colname="6">Communications network</entry></row></tbody></tgroup></table><para reuse="all">Periodic network variables are used to transfer
+the states of such operator panels as the CCP and the Cab Communication
+Control Panel. The periodic network variables are also used to transfer network
+states such as DTN/Non-DTN mode and prerecorded message broadcast. </para></section><section reuse="all"><title id="ID200651994549411">DTN (WorldFIP
+Communication Network) Reconfiguration</title><para reuse="all">Normally, the Fieldbus Internet Protocol (FIP)
+network cannot reconfigure itself on-the-fly. A car has no means
+to detect which other car is connected next to it. Thus, modifications
+have been made to the physical layer in order to implement network
+topology changes.</para><para reuse="all">First, each car is capable of generating and
+detecting fritting currents. Being able to detect different fritting
+polarity (either positive, zero, or negative), each car is capable
+of knowing if it has a neighbor or not. Next, a special signature
+has been added at the end of each frame. This signature contains
+the address of the last car that transmitted the frame. Since each
+frame must be repeated from one car to the other, this provides
+a way for a car to know the address of its closest neighbor.</para><para reuse="all">Network configuration is as follows:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Initially,
+the network is in inauguration phase. In this phase, each car receives
+a unique address. The network then goes into operational phase. </para></list-item><list-item><para reuse="all">After this period, if a car detects
+a fritting current change, it pulls the whole network back again
+into inauguration phase, effectively reconfiguring the network. </para></list-item><list-item><para reuse="all">In the operational phase, a car is
+elected audio master. The audio master controls all accesses to
+the digital audio system. </para></list-item></list></section><section reuse="all"><title id="ID2006519945411831">DTN (WorldFIP
+Communication Network) Digital Audio System</title><para reuse="all">The purpose of the digital audio system is to
+provide the following three audio service types:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Prerecorded
+PA</para></list-item><list-item><para reuse="all">Manual IC</para></list-item><list-item><para reuse="all">Manual PA</para></list-item></list><para reuse="all">The digital audio system is an application that
+runs on each car separately. The car elected audio master must also
+run an additional control application. When an audio master, the
+car controls all the resources needed to communicate on a channel.
+These resources include peripheral panel microphones, peripheral
+panel speakers, and network bandwidth. Cars must always be authorized
+by the audio master before sending or receiving audio. </para></section><section reuse="all"><title id="ID2006519945414371">CRDSS Train
+Topologies</title><para reuse="all">The CRDSS is compatible in both operating modes
+with NJ Transit Comet V DTN-type and DCTL-type networks, except
+for the functions described in the following table.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID2006519945417021">Mixed Consist Compatibility Limitations</title><tgroup cols="4" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="2.375in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="1.125in"></colspec><colspec colnum="4" colname="4" colwidth="2.375in"></colspec><thead><row rowsep="1"><entry colname="1" morerows="1">FUNCTIONALITY</entry><entry namest="2" nameend="3">NETWORK TYPE</entry><entry colname="4" morerows="1">COMMENT AND LIMITATION</entry></row><row rowsep="1"><entry colname="2">DTN</entry><entry colname="3">DCTL</entry></row></thead><tbody><row rowsep="1"><entry colname="1">Manual PA digital recording done by multi-level
+car</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible</entry><entry colname="4">An audio master multi-level cab will execute
+the manual PA recording</entry></row><row rowsep="1"><entry colname="1">IC communication between operator panels</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible</entry><entry colname="4">None</entry></row><row rowsep="1"><entry colname="1">PEI chime</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible</entry><entry colname="4">An audio master multi-level car will play back
+a prerecorded digital PEI tone on the PA speakers of the entire train</entry></row><row rowsep="1"><entry colname="1">PEI visual announcement</entry><entry colname="2">Not compatible</entry><entry colname="3">Not compatible</entry><entry colname="4">Will be viewed on IMS (Multi-Level cars only).
+PEI visual announcement uses new DCTL control variable unrecognized
+by non-multi-level cars.</entry></row><row rowsep="1"><entry colname="1">PEI answer</entry><entry colname="2">Not compatible</entry><entry colname="3">Not compatible</entry><entry colname="4">The PEI call can be answered from a multi-level
+car only; the PEI remains in request state until it is answered from
+a multi-level car</entry></row><row rowsep="1"><entry colname="1">PEI communication</entry><entry colname="2">Not compatible</entry><entry colname="3">Not compatible</entry><entry colname="4">Non-multi-level cars listening to the IC trainline
+will hear the PEI audio.</entry></row><row rowsep="1"><entry colname="1">PEI cancellation</entry><entry colname="2">Not compatible</entry><entry colname="3">Not compatible</entry><entry colname="4">The PEI can be cancelled by the answering panel
+only.</entry></row><row rowsep="1"><entry colname="1">Destination sign database update</entry><entry colname="2">Not applicable</entry><entry colname="3">Not applicable</entry><entry colname="4">Destination sign database updates are done
+via the Data Car Network (DCN), Portable Test Equipment (PTE), or
+the CCU PCMCIA card reader.</entry></row><row rowsep="1"><entry colname="1">Voice database update</entry><entry colname="2">Not applicable</entry><entry colname="3">Not applicable</entry><entry colname="4">Voice database updates are done via the DCN,
+the PTE, or the PCMCIA.</entry></row><row rowsep="1"><entry colname="1">Station announcements displayed on the IMS
+and heard on the PA speakers</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible (1)</entry><entry colname="4">None</entry></row><row rowsep="1"><entry colname="1">Special message announcements displayed on
+the IMS and heard on the PA speakers</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible (1)</entry><entry colname="4">None</entry></row><row rowsep="1"><entry colname="1">Public message announcements displayed on the
+IMS</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible (1)</entry><entry colname="4">None</entry></row><row rowsep="1"><entry colname="1">The pager messages displayed on the IMS</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible (1)</entry><entry colname="4">None</entry></row><row rowsep="1"><entry colname="1">The destination station displayed the FDS</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible (1)</entry><entry colname="4">None</entry></row><row rowsep="1"><entry colname="1">The destination station displayed on the SDS</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible (1)</entry><entry colname="4">None</entry></row><row rowsep="0"><entry colname="1">A manual PA digital recording done by multi-level
+car</entry><entry colname="2">Compatible</entry><entry colname="3">Compatible</entry><entry colname="4">An audio master multi-level cab will execute
+the manual PA recording</entry></row></tbody></tgroup></table><safety reuse="all"><hazard level="notification" symbol="warning1"><hazard-desc>(1) Cars without a DCTL-CCN, such as older NJ Transit
+cars, do not play back or display a station announcement, a special
+announcement, a public announcement, or a pager message announcement.</hazard-desc></hazard></safety></section></section><section reuse="all"><title id="ID2006519945419701">CRDSS Car
+Level Interfaces</title><para reuse="all">On a car level basis, the CRDSS interchanges
+information with the Car Level Diagnostic System (CLDS), the cab
+control circuitry, and the display signs (FDS, SDS, and IMS). (See Figure <ref-container><iref ref-id="BGBCIEEH"></iref></ref-container>.)</para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0010.cgm" impsize="6.975in 3.971in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="4.000in" nsoffset="0.000in" id="ID2006519945423371"></graphic><title id="BGBCIEEH">CRDSS Car Level Interfaces</title></illustration><para reuse="all">The CLDS and the CRDSS exchange information
+primarily for diagnosis purposes, pre-recorded message control,
+and MDU display control.</para><para reuse="all">The CRDSS interfaces with a cab makeup relay
+contact from the cab circuitry to activate the CCCP when the master
+controller key is inserted. The CCCP also interfaces with the cab
+Master Door Control Panel, which allows the operator to activate
+the CCCP without activating the cab with the master controller key.
+The CCCP also interfaces with the Alerter/Indicator System, which
+informs the ASES that the operator has been active with a cab control.
+Additionally, the CRDSS has six discrete inputs activated by the
+Door Control Units (DCU) for door closing trigger signals used to
+activate the interior and exterior door chime.</para><para reuse="all">Even though the CRDSS includes all the display
+signs, it needs to communicate with them on the Data Car Network
+(DCN). All control commands are sent to the signs on the DCN without
+any feedback from the sign. The status of every signs is sent to
+the CLDS for display. </para></section><section reuse="all"><title id="ID2006519945427091">CRDSS Peripheral
+Interfaces</title><para reuse="all">The CCU is the main processing platform of the
+CRDSS. It manages all communications, and thus interfaces with most
+of the CRDSS peripherals; for this reason, it is not considered
+a peripheral.</para><para reuse="all">The following table regroups the peripherals,
+the interface types, and the equipment to be interfaced.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID2006519945430871">CRDSS Peripheral List</title><tgroup cols="6" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="2.000in"></colspec><colspec colnum="2" colname="2" colwidth="2.125in"></colspec><colspec colnum="3" colname="3" colwidth="1.156in"></colspec><colspec colnum="4" colname="4" colwidth="0.563in"></colspec><colspec colnum="5" colname="5" colwidth="0.563in"></colspec><colspec colnum="6" colname="6" colwidth="0.563in"></colspec><thead><row rowsep="1"><entry colname="1" morerows="1">PERIPHERAL</entry><entry colname="2" morerows="1">PERIPHERAL INTERFACE TYPE</entry><entry colname="3" morerows="1">INTERFACE WITH</entry><entry namest="4" nameend="6">CAR TYPE</entry></row><row rowsep="1"><entry colname="4">C CAR</entry><entry colname="5">S CAR</entry><entry colname="6">T CAR</entry></row></thead><tbody><row rowsep="1"><entry colname="1">CCCP</entry><entry colname="2">Audio control network (RS-485) and individual
+audio lines</entry><entry colname="3" align="center">CCU</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row><row rowsep="1"><entry colname="1">CCP</entry><entry colname="2">Audio control network (RS-485) and individual
+audio lines</entry><entry colname="3" align="center">CCU</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">PEI panel</entry><entry colname="2">Audio control network (RS-485) shared audio
+lines</entry><entry colname="3" align="center">CCU</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">PA speakers</entry><entry colname="2">70 V audio distribution network</entry><entry colname="3" align="center">CCU</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">FDS</entry><entry colname="2">DCN</entry><entry colname="3" align="center">CCU &amp; CLDS</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row><row rowsep="1"><entry colname="1">SDS</entry><entry colname="2">DCN</entry><entry colname="3" align="center">CCU &amp; CLDS</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">IMS</entry><entry colname="2">DCN</entry><entry colname="3" align="center">CCU &amp; CLDS</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">Noise sensing microphones Automatic Output
+Level Adjustment (AOLA)</entry><entry colname="2">Individual audio lines</entry><entry colname="3" align="center">CCU</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">Train radio</entry><entry colname="2">Discrete CCU outputs</entry><entry colname="3" align="center">CCCP</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row><row rowsep="1"><entry colname="1">Alerter/Indicator System</entry><entry colname="2">Discrete CCU output</entry><entry colname="3" align="center">CCCP</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row><row rowsep="1"><entry colname="1">Door control unit</entry><entry colname="2">Discrete CCU inputs</entry><entry colname="3" align="center">CCU PAA</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="1"><entry colname="1">Door control panel</entry><entry colname="2">Discrete CCU input</entry><entry colname="3" align="center">CCCP</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row><row rowsep="1"><entry colname="1">Master controller</entry><entry colname="2">Discrete CCU input</entry><entry colname="3" align="center">CCCP</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row><row rowsep="1"><entry colname="1">Speaker muting</entry><entry colname="2">In software (CCU)</entry><entry colname="3" align="center">CCCP/CCP</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center">X</entry><entry colname="6" align="center">X</entry></row><row rowsep="0"><entry colname="1">Radio antenna</entry><entry colname="2">Radio frequency</entry><entry colname="3" align="center">Train radio</entry><entry colname="4" align="center">X</entry><entry colname="5" align="center"></entry><entry colname="6" align="center"></entry></row></tbody></tgroup></table><para reuse="all">Figure <ref-container><iref ref-id="ID2006519945434691"></iref></ref-container>shows the interfaces
+for C Car types (the S Car and T Car support only a subset of those
+interfaces). They also include the train level interfaces to give
+an overall picture of the CRDSS. The cab circuitry discrete signals
+and Alerter/Indicator System discrete signals collected by the CCCP
+are not shown in the figure. </para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0015.cgm" impsize="6.984in 8.247in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="8.250in" nsoffset="0.000in" id="ID2006519945434691"></graphic><title id="ID2006519945439771">Car Level Interfaces</title></illustration><para reuse="all">As indicated earlier, the diagnosis related
+information such as the operational status variable, the Real-Time
+Data Monitoring (RTDM) frames, the file request and software updates,
+the time set command and the software versions request are defined
+in the supplied documents. All traffic required to control the pre-recorded
+message such as messages ID (station, special, and public messages),
+sign control, and monitoring and MDU locking. </para><para reuse="all">The Audio Control Network (ACN) is implemented
+by using J1708 transceivers. J1708 is based on the RS-485 physical
+layer. The ACN uses the J1708 transport and data layer. The ACN
+is used in a master/slave approach as specified in the J1708 specification.
+The CCU is always the network master, whereas the CCCP, CCP, and
+PEI panels, and the PAA are always the network slaves. Each slave
+has its own physical address. The CCU initiates a request message
+by sending a signal to a peripheral; it then waits for a response/acknowledgement
+signal from the peripheral. If the peripheral does not respond/acknowledge,
+the CCU times out.</para><para reuse="all">The panel audio lines are used to send and receive
+PA/IC/PEI baseband voice audio signals between the CCU and the panels.
+The CCU controls the connections on the audio lines over the ACN
+as described in the previous paragraph.</para><para reuse="all">Each CCCP and CCP has its own audio line whereas
+a single line is used for all the PEI panels of a car. The reason
+for this is that only one PEI call can be processed at a time in
+the consist.</para><para reuse="all">Each audio line has the following characteristics: </para><list type="bulleted" reuse="all"><list-item><para reuse="all">Impedance:
+600 Ω</para></list-item><list-item><para reuse="all">Signal level: 20 dBm</para></list-item><list-item><para reuse="all">Frequency response: 80 Hz to 8000
+Hz (±3 dB)</para></list-item><list-item><para reuse="all">Signal to noise ratio: &lt;100:1</para></list-item></list><para reuse="all">The noise sensing audio lines are defined as
+the Pulse-Width Modulator (PWM) communication lines between the
+noise sensing microphones located in four PA speaker enclosures
+and the CCU Audio Control Board (ACB) Circuit Card Assemblies (CCA). </para><para reuse="all">The PTE serial port includes the Receiver (RX)
+and Transmitter (TX) line with the signal ground, the hardware flow
+control Request to Send (RTS) and Clear to Send (CTS), a direct
+connection with the DCN LonWorks and a 74 Vdc Low Voltage Power
+Supply (LVPS) connection for PTE laptop power supply. </para><para reuse="all">The speaker audio network is defined as the
+audio link between the PAA and the speakers. This is a 70.7 V system
+terminated by an audio transformer at the speaker end. The audio
+transformer has three different power taps as defined in the discussion
+of the ACN, above. </para></section><section reuse="all"><title id="ID2006519945444861">CCU</title><para reuse="all">The CCU is equipped with a 74 Vdc power switch
+on the front panel that removes power to the all CCU CCAs, except
+for the door chime discrete inputs on the PAA power supply CCA,
+where the 74 Vdc is supplied by the door system. All CCUs installed
+in all three car types (cab, trailer, and trailer with toilet) are
+identical. Two shorting ID discrete inputs of the power supply CCA
+will allow the CCU application to identify its position. </para><para reuse="all">The CRDSS memory is contained in the CCU. The
+memory supplied under this contract is provided with spare memory
+equivalent to 30 percent of the required application. </para><para reuse="all">The CCU requires strapping to identify its location
+identification. (See Table <ref-container><iref ref-id="ID2006519945450151"></iref></ref-container>.)</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID2006519945450151">Car Type Identification to CCU</title><tgroup cols="2" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><thead><row rowsep="1"><entry colname="1">CAR TYPE</entry><entry colname="2">LOCATION ID</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">T Car</entry><entry colname="2" align="center">00</entry></row><row rowsep="1"><entry colname="1" align="center">S Car</entry><entry colname="2" align="center">01</entry></row><row rowsep="1"><entry colname="1" align="center">C Car</entry><entry colname="2" align="center">10</entry></row><row rowsep="0"><entry colname="1" align="center">(Not used)</entry><entry colname="2" align="center">11</entry></row></tbody></tgroup></table><para reuse="all">The following table presents the major CCU components.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID2006519945455491">CCU Components List</title><tgroup cols="3" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="4.750in"></colspec><thead><row rowsep="1"><entry colname="1">QUANTITY</entry><entry colname="2">NAME</entry><entry colname="3">DESCRIPTION</entry></row></thead><tbody><row rowsep="1"><entry colname="1">1</entry><entry colname="2">Card Cage Assembly</entry><entry colname="3">19 inch, 6U, rack-mount card cage. The card
+cage includes the indicator CCA and the backplane CCA.</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">Indicator CCA</entry><entry colname="3">Front-panel switch and indicator CCA, for status
+indicators, lamp test, and service switches</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">Backplane CCA</entry><entry colname="3">CCU system backplane for the card cage</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">CCU Power Supply CCA</entry><entry colname="3"><para reuse="all">Low Voltage Distribution
+Network 74 V transient protection and isolated DC/DC converters
+(3.3 V, 5 V, and ±25 V) for the Central Processing Unit (CPU) CCA,
+Local Operating Network (LON) CCA, indicator CCA, WorldFIP CCA,
+ACB CCA and Personal Computer (PC) card CCA.</para></entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">CPU CCA</entry><entry colname="3">MPC8250 CPU, Random Access Memory (RAM), and
+flash memory</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">LON CCA</entry><entry colname="3">LON interface with Dual Port Random Access
+Memory (DPRAM) interface and FTT-10A Free Topology Transceiver (FTT)
+and PLT-10A Power Line Transceiver (PLT). Double serial interface,
+with one isolated RS-232 interface for the PTE and one isolated
+J1708 interface. </entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">WorldFIP CCA</entry><entry colname="3">Redundant 1 Mb/s WorldFIP interface, with FULLFIP2
+controller and dynamic configuration layer, which includes the smart
+repeater</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">ACB CCA (includes ACB DSP mezzanine CCA)</entry><entry colname="3">Audio signal interfaces and routing circuits;
+this CCA also has Coders/Decoders (CODEC), DPRAM, AOLA interface,
+PA and IC audio trainline, PA control trainline and DSP for G.722
+coding/encoding</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">PC Card CCA</entry><entry colname="3">Personal Computer Memory Card International
+Association (PCMCIA) card socket</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">PAA amplifier CCA</entry><entry colname="3">PA and door chime audio amplifier</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">PAA Controller CCA</entry><entry colname="3">PA and door chime control, discrete inputs</entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">PAA Power Supply CCA</entry><entry colname="3"><para reuse="all">Low Voltage Distribution
+Network transient protection and isolated DC/DC converters (3.3 V,
+5 V, and ±25 V) for the PAA amplifier CCA and PAA chime controller
+CCA</para></entry></row><row rowsep="1"><entry colname="1">1</entry><entry colname="2">Transformer Assembly</entry><entry colname="3">PAA and chime 70 V audio lines transformers.
+This assembly includes the PAA transformer CCA.</entry></row><row rowsep="0"><entry colname="1">1</entry><entry colname="2">PAA Transformer CCA</entry><entry colname="3">Provides the PA transient protection.</entry></row></tbody></tgroup></table><section reuse="all"><title id="ID2006519945461061">CCU Backplane</title><para reuse="all">The CCU backplane CCA has a 15 DIN-41612 (level
+1) socket connector. The backplane provides 3U and 6U card slots.
+Card-edge connectors are not used. An additional connector is provided for
+a cable running to the indicator CCA. The top bus is compatible
+with the CPU CCA bus. The bottom bus provides additional power and
+I/O lines. </para><para reuse="all">To ensure that CCAs cannot be installed in an
+incorrect slot, polarizing combs and studs are provided for all
+backplane connectors. The CCU backplane CCA is labelled <verbatim>CCU BACKPLANE
+CCA</verbatim>.</para><para reuse="all">The following figure shows the order of CCA
+installation in the card cage.</para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0011.cgm" impsize="6.975in 3.971in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="4.000in" nsoffset="0.000in" id="ID2006519945467331"></graphic><title id="ID2006519945473661">Cardcage CCA Layout</title></illustration><para reuse="all">The following table presents the card cage layout
+and connector key positions.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID2006519945480001">Card Cage Layout</title><tgroup cols="3" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="3.000in"></colspec><thead><row rowsep="1"><entry colname="1">SLOT NO.</entry><entry colname="2">CCA SIZE</entry><entry colname="3">CCA</entry></row></thead><tbody><row rowsep="1"><entry colname="1">1</entry><entry colname="2">3U x 1.6 in.</entry><entry colname="3">PAA power supply</entry></row><row rowsep="1"><entry colname="1">2, 3</entry><entry colname="2">3U x 1.6 in.</entry><entry colname="3">PAA amplifier</entry></row><row rowsep="1"><entry colname="1">4</entry><entry colname="2">3U x 0.8 in.</entry><entry colname="3">PAA controller</entry></row><row rowsep="1"><entry colname="1">5</entry><entry colname="2">3U x 0.8 in.</entry><entry colname="3">PC card</entry></row><row rowsep="1"><entry colname="1">6</entry><entry colname="2">3U x 0.8 in.</entry><entry colname="3">CPU MPC8250 CF</entry></row><row rowsep="1"><entry colname="1">7</entry><entry colname="2">3U x 0.8 in.</entry><entry colname="3">(Spare RS485 channel)</entry></row><row rowsep="1"><entry colname="1">8, 9</entry><entry colname="2">6U x 1.6 in.</entry><entry colname="3">ACB</entry></row><row rowsep="1"><entry colname="1">10, 11</entry><entry colname="2">6U x 1.6 in.</entry><entry colname="3">WorldFIP</entry></row><row rowsep="1"><entry colname="1">12, 13</entry><entry colname="2">6U x 1.6 in.</entry><entry colname="3">LON</entry></row><row rowsep="0"><entry colname="1">14, 15</entry><entry colname="2">6U x 1.6 in.</entry><entry colname="3">CCU power supply</entry></row></tbody></tgroup></table><para reuse="all">In order to minimize Electromagnetic Interference
+(EMI) and simplify signal termination, all backplane bus signals
+are slew-rate limited. This is implemented on all CCAs by driving
+bus signals using Xilinx Complex Programmable Logic Device (CPLD)
+slew-rate limited outputs, or by placing small value resistors in
+series with outputs. </para></section><section reuse="all"><title id="ID2006519945486371">CCU Power
+Supply CCA</title><para reuse="all">The CCU power supply CCA converts the Low Voltage
+Distribution Network (74 Vdc nominal) power to 10 Vdc ±5 %, 5 Vdc
++5 %/-3 %, and 3.3 Vdc +5 %/-3 % for the subsystem logic, and 15 V
+±5 % to power car communications panels.</para><para reuse="all">The power supply CCA also includes two 74 V
+digital inputs for the CCU location ID strapping and one 74 V digital
+Input/Output (I/O) for the PA control trainline interface. Isolated
+switching DC-DC converters are provided.</para><para reuse="all">The system power consumption for each output
+is presented in the following table.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID2006519945493271">Nominal System Power Consumption</title><tgroup cols="5" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="2.500in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="0.750in"></colspec><colspec colnum="4" colname="4" colwidth="0.750in"></colspec><colspec colnum="5" colname="5" colwidth="0.750in"></colspec><thead><row rowsep="1"><entry colname="1" align="center">CCA/VOLTAGES</entry><entry colname="2">15 VDC ISOLATED</entry><entry colname="3">10 VDC</entry><entry colname="4">5 VDC</entry><entry colname="5">3.3 VDC</entry></row></thead><tbody><row rowsep="1"><entry colname="1">CPU CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">0.02</entry><entry colname="5" align="center">1.5</entry></row><row rowsep="1"><entry colname="1">LON CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0.5 (1)</entry><entry colname="4" align="center">0.14</entry><entry colname="5" align="center">0.4</entry></row><row rowsep="1"><entry colname="1">WorldFIP CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">1.1</entry><entry colname="5" align="center">0.2</entry></row><row rowsep="1"><entry colname="1">PC card CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">0.15</entry><entry colname="5" align="center">0.2</entry></row><row rowsep="1"><entry colname="1">ACB CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">1.24</entry><entry colname="5" align="center">1.27 (2)</entry></row><row rowsep="1"><entry colname="1">Indicator CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">0</entry><entry colname="5" align="center">0</entry></row><row rowsep="1"><entry colname="1">Backplane CCA</entry><entry colname="2" align="center">0</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">0</entry><entry colname="5" align="center">0</entry></row><row rowsep="1"><entry colname="1">Control panels</entry><entry colname="2" align="center">2.13</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">0</entry><entry colname="5" align="center">0</entry></row><row rowsep="1"><entry colname="1">AOLA microphones</entry><entry colname="2" align="center">0.2</entry><entry colname="3" align="center">0</entry><entry colname="4" align="center">0</entry><entry colname="5" align="center">0</entry></row><row rowsep="1"><entry colname="1">Total current (A)</entry><entry colname="2" align="center">2.33</entry><entry colname="3" align="center">0.5</entry><entry colname="4" align="center">2.65</entry><entry colname="5" align="center">3.57</entry></row><row rowsep="0"><entry colname="1">Total power (W)</entry><entry colname="2" align="center">35</entry><entry colname="3" align="center">5.0</entry><entry colname="4" align="center">13.23</entry><entry colname="5" align="center">11.76</entry></row></tbody></tgroup></table><safety reuse="all"><hazard level="notification" symbol="warning1"><hazard-desc>(1) 10 V = 0.5 A transmit peak, 0.250 A idle</hazard-desc></hazard><hazard level="notification" symbol="warning1"><hazard-desc>(2) 3.3 V = 2.665 A boot-up surge, 1.265 A nominal</hazard-desc></hazard></safety><para reuse="all">The input power is limited to 65 W under normal
+operating conditions. An inrush current limiter is provided, which
+limits inrush current to 3 A maximum.</para><para reuse="all">The CCU power supply CCA requires a two-inch
+wide slot in the card cage, and is labelled <verbatim>1, 14 POWER
+CCA</verbatim>.</para><para reuse="all">The Low Voltage Distribution Network +74 Vdc
+and 74 Vdc return signals are returned back to the low voltage distribution
+network connector, for wiring to the PTE circular connector. </para><para reuse="all">The power supply CCA is powered by the low voltage
+distribution network and operates normally at input voltages in
+the range of 46 Vdc to 85 Vdc.</para><para reuse="all">The power supply CCA starts up as the input
+voltage rises above 46 Vdc +0 V/-2 V, and the hysteresis between
+startup and shutdown is 2  Vdc minimum. The CCU power supply CCA
+cannot be damaged by the continuous application of voltages below
+46 Vdc, and so are other CCU CCAs. </para><para reuse="all">The power supply CCA includes transient protection
+and reverse polarity protection, as required in IEC 60571.</para><para reuse="all">The transient protection circuit is capable
+of absorbing an 80 W/s transient. To meet this requirement, the
+power supply CCA has been tested in accordance with IEC 61000-4-5,
+level 4, except that the line-to-line test voltage is 4 kV ±10 percent.
+The source impedance for the test is 2Ω.</para><para reuse="all">A diode is provided for protection against the
+application of reverse voltage. The reverse protection diode has
+a breakdown rating of 1,000 V. The inrush limiter transistor breakdown
+rating is 400 V.</para><para reuse="all">The DC-DC converters are protected against short-circuits.</para><para reuse="all">The 15 V output cannot be damaged by the continuous
+application of 85 Vdc (either polarity) to the output connections. </para><para reuse="all">Electrical isolation from the low voltage distribution
+network to any power supply CCA output, to chassis ground, and from
+chassis ground to any power supply CCA output is 1,148 Vac, minimum. </para><para reuse="all">The low voltage distribution network monitor
+circuit is used to control the PAA power supply start-up and shutdown.</para><para reuse="all">Circuitry is provided to monitor the low voltage
+distribution network input voltage. If the input voltage is greater
+than 44 Vdc, the voltage OK signals with its associated Light Emitting
+Diode (LED) is set. If the input voltage is between 43 Vdc and 44 Vdc,
+the low voltage signals and its associated LED is set and the CCU
+is operational. If the input voltage is below 43 Vdc, then the advance
+power lost signal is set and is read by the CCU application.</para><para reuse="all">There is a lamp test input to the PAA power
+supply. All associated LEDs are on while the lamp test input is
+set. </para><para reuse="all">The CCU power supply maintains a charge sufficient
+to provide 100 ms additional CCU operating time following the detection
+of Low Voltage Distribution Network power loss. An interrupt is set
+to advise the CPU CCA and allows the CCU application to perform
+a complete shutdown operation without affecting on-board files and
+permit a safe start-up when re-energized. Power hold-up is not required
+for the 15 V supply. </para><para reuse="all">Circuitry is provided to monitor the output
+of the 15 V supply. This 15 V supply monitor is optically isolated
+from the CCU logic. On the CCU backplane, the 15 V signal is connected
+to the LON CCA. </para><para reuse="all">Optically isolated circuitry monitors the two
+74 V digital inputs for CCU location ID strapping and to control
+one 74 V digital I/O for PA control trainline interface. The 74
+V digital I/O circuit has the same level of protection as the power
+input of the low voltage distribution network. </para></section><section reuse="all"><title id="ID20065199454100221">CPU MPC8250
+CCA</title><para reuse="all">The CPU MPC8250 CCA is labelled <verbatim>CPU
+MPC8250 CCA</verbatim>. </para><para reuse="all">One Motorola MPC8250 embedded processor, which
+is PowerPC-compatible, is intended for low-power communications
+applications, and it includes common functional blocks as follows: </para><list type="bulleted" reuse="all"><list-item><para reuse="all">MPC603e
+PowerPC processor core</para></list-item><list-item><para reuse="all">Memory management unit</para></list-item><list-item><para reuse="all">Synchronous Dynamic Random Access
+Memory (SDRAM) controller</para></list-item><list-item><para reuse="all">Floating point unit</para></list-item><list-item><para reuse="all">16 KB instruction and data caches</para></list-item><list-item><para reuse="all">General purpose timers</para></list-item><list-item><para reuse="all">Interrupt controller</para></list-item><list-item><para reuse="all">System integration unit</para></list-item><list-item><para reuse="all">Serial communications controllers</para></list-item><list-item><para reuse="all">Ethernet controller</para></list-item><list-item><para reuse="all">Joint Test Access Group / Common
+On-chip Processor controller</para></list-item><list-item><para reuse="all">Real-time counter. </para></list-item></list><para reuse="all">One 4 MB x 16 flash Programmable Read-Only Memory
+(PROM) is provided. It provides a total of 8 MB of storage for the
+board support package. The flash PROMs are programmable under software
+control, through the MPC8250 Joint Test Access Group / Common On-chip
+Processor port. The CCA is designed to accept a larger flash PROM
+on the same footprint, for future designs where additional flash
+may be needed. </para><para reuse="all">The CPU CCA has 128 MB of RAM. The design of
+the CCA allows a future upgrade of the CCA to 256 MB of DRAM without
+requiring modification of the bare Printed Circuit Board (PCB). </para><para reuse="all">The CPU MPC8250 CCA supports the QNX Neutrino
+Real-Time Operating System (RTOS). </para><para reuse="all">The backplane bus is a simple eight-bit PowerPC
+compatible I/O bus. </para><para reuse="all">Low voltage detectors cause a full subsystem
+hardware reset if the 5 Vdc drops below 4.5 Vdc, or if the 3.3 Vdc
+drops below 3 Vdc. A momentary pushbutton switch (mounted on the
+front of the CCA and internally accessible) manually resets the
+subsystem. </para><para reuse="all">A watchdog timer is implemented. The CPU has
+to update the watchdog timer every five seconds or less to prevent
+a watchdog reset event. The watchdog causes a full subsystem hardware reset
+to occur, equivalent to a power-on reset. The watchdog is disabled
+by default, and enabled under software control and implemented in
+the CPLD. </para><para reuse="all">Logic indicates the overall health of the subsystem.
+This logic flashes the <verbatim>HEALTH LED</verbatim> on the indicator
+CCA at a 1 Hz rate. The subsystem is considered to be healthy if
+the following conditions are met: </para><list type="bulleted" reuse="all"><list-item><para reuse="all">The
+subsystem is not in reset.</para></list-item><list-item><para reuse="all">The watchdog timer is running (not
+expired).</para></list-item><list-item><para reuse="all">All oscillators are running.</para></list-item></list><para reuse="all">The <verbatim>HEALTH</verbatim> LED can be disabled
+under software control, so that the CPU can indicate an unhealthy
+condition based on software built-in self-test results. </para><para reuse="all">One type 1 compact flash socket is provided,
+with shock-proof and vibration-proof mounting. The compact flash
+interfaces in either PC AT attachment Interface (ANSI standard X3.221-1994)
+or true Integrated Drive Electronics (IDE) mode. The mode selection
+is controlled by a resistor jumper on the CCA. </para><para reuse="all">The internal real-time clock is provided by
+the QNX operating system. The clock’s resolution is 1 second. This
+clock uses the CPU timer, which receives its time base from an 8.192
+MHz oscillator with an accuracy of 50 PPM. No adjustments for delays
+will be possible.</para></section><section reuse="all"><title id="ID20065199454108241">PCMCIA
+Card CCA</title><para reuse="all">The PC card CCA provides one 16-bit PC card
+LV socket compliant with PC card standard, PCMCIA/Japan Electronics
+and Information Technology Industries Association (JEITA) 0401-001-1500 electrical
+specification, section 4. Cold insertion is supported, as is support
+of true IDE compatible PC cards.</para><para reuse="all">The mechanical form-factor of the CCA allows
+the socket to protrude from the front of the CCA, so that a PC card
+can be inserted through a slot in the front of the CCU enclosure.
+This eliminates the need to open the CCU for PC card insertion and
+extraction.</para><para reuse="all">One 16-bit PC card LV connector compliant with
+PC card standard is provided, compatible with types I and II PC
+cards (PCMCIA compatible), and supports low-voltage cards.</para></section><section reuse="all"><title id="ID20065199454116731">CCU Indicator
+CCA</title><para reuse="all">The CCU indicator CCA provides front panel indication
+of power and health. Also, <verbatim>SERVICE</verbatim> switches
+and LED are provided for the Neuron chips. For details on indicators
+and switches, refer to <miid-ref e-list-number="09 01 04" giid-maint-item-desc="Communication Control Unit" user-defined-1="" user-defined-2="" user-defined-3="" maint-item-desc="Communication Control Unit">BOM00764</miid-ref>.</para><para reuse="all">The CCU indicator CCA mounts on the inside of
+the front panel. The CCU indicator CCA is labelled CCU INDICATOR
+CCA. </para></section><section reuse="all"><title id="ID20065199454125271">LON CCA</title><para reuse="all">The LON CCA is labelled LON CCA. The supply
+voltage for all components on the LON CCA is 5 ±0.25 Vdc, 10 ±0.5
+Vdc, or 3.3 ±0.3 Vdc.</para><para reuse="all">The LON CCA PLT-10A channel can be configured
+for Microprocessor Interface Program / Dual Port System. One PLT-10A
+interface is provided.</para><para reuse="all">The PLT-10A line interface circuit is implemented
+in accordance with the LonWorks PLT-10A power line transceiver module
+user’s guide. One 10 MHz crystal is provided. </para><para reuse="all">The LON CCA FTT-10A channel complies with the
+Institute of Electrical and Electronics Engineers (IEEE) standard
+for communications protocol aboard trains. The FTT-10A channel can
+be configured for Microprocessor Interface Program/ Dual Port System.</para><para reuse="all">An Echelon FTT-10A transceiver is provided,
+with a network bit rate of 78,125 bits per second. LonMark compliance
+is achieved, except as noted in the following: </para><list type="bulleted" reuse="all"><list-item><para reuse="all">Each
+LON interface requires an EMI filter and DC blocking circuit. This
+is a collection of passive components and diodes. </para></list-item><list-item><para reuse="all">The core of the LON interface is
+a Neuron 3150 chip, one for each channel. This processor supports
+the EIA-709.1 (LonTalk) protocol. It has an external address/data
+bus. One Toshiba Neuron 3150 chip is provided for each LON channel,
+with clock frequency of 10 MHz.</para></list-item><list-item><para reuse="all">A 1 MB flash PROM is provided for
+each LON channel; with 32 Kb of this PROM usable.</para></list-item><list-item><para reuse="all">The flash PROM is also accessible
+by the host CPU through the backplane. Address and data multiplexers
+will be provided to implement this feature. This hardware is needed
+so that the Neuron chip firmware can be upgraded through the PTE port.</para></list-item></list><para reuse="all">The LON CCA comprises an 8 Kb dual-ported Static
+Random Access Memory (SRAM) for each LON channel. A portion of this
+DPRAM can be used as general-purpose SRAM for network variable buffers.
+The second DPRAM port is accessible by the host CPU through the
+backplane. </para><para reuse="all">The LON CCA has one RS-232 interface, which
+is electrically isolated from the rest of the CCA. Optical isolators
+provides signal isolation. An optical isolator provides an isolated
+power health signal for the RS-232 port. The following signals are
+supported:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Transmitter
+Data (TXD), Receiver Data (RXD) </para></list-item><list-item><para reuse="all">Data Terminal Ready (DTR), Data Set
+Ready (DSR) </para></list-item><list-item><para reuse="all">RTS, CTS</para></list-item><list-item><para reuse="all">Ground.</para></list-item></list><para reuse="all">Each RS-232 signal line is protected with resettable
+polyswitch fuses (power temperature control thermistors), transzorbs,
+and diodes.</para><para reuse="all">One channel of a 16C552 Universal Asynchronous
+Receiver-Transmitter (UART) supports the RS-232 interface and its
+handshake signals includes as a minimum the RTS and CTS. The unused UART
+handshake signal Data Carrier Detect (DCD) input is wired to signal
+DSR</para><para reuse="all">A J1708 interface is provided, which is electrically
+isolated from the rest of the CCA. Optical isolators provide signal
+isolation. An optical isolator provides an isolated power health
+signal for the J1708 port. Each J1708 signal line is protected with
+resettable polyswitch fuses (power temperature control thermistors),
+transzorbs, and diodes.</para><para reuse="all">One channel of a 16C552 UART is provided to
+support the J1708 interface. The unused UART handshake signal inputs
+is wired as follows:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">CTS
+is wired to RTS.</para></list-item><list-item><para reuse="all">DSR is wired to logic ground (asserted).</para></list-item><list-item><para reuse="all">DCD is wired to logic ground (asserted).</para></list-item></list></section><section reuse="all"><title id="ID20065199454133861">WorldFIP
+CCA</title><para reuse="all">The WorldFIP CCA allows communications of digitized
+PA and IC audio over the trainline. To support this, the WorldFIP
+CCA incorporates a redundant 1 Mb/s trainline interface, interoperable
+with the ALSTOM reconfigurable WorldFIP physical layer.</para><para reuse="all">The WorldFIP CCA is under the control of the
+CPU MPC8250 CF CCA, which is responsible for management of all WorldFIP
+message data.</para><para reuse="all">The bare PCB size is 9 in. high (6U) and 9.0 in.
+long. The WorldFIP CCA is labelled <verbatim>WORLDFIP CCA</verbatim>.</para><para reuse="all">The supply voltage for all components on the
+WorldFIP CCA is 5 ±0.25 Vdc and 3.3 ±0.3 Vdc.</para><para reuse="all">The 1 Mb/s WorldFIP interface is implemented
+by using a FULLFIP2 controller, an FPGA, four FIELDRIVE transceivers,
+and four FIELDTR isolation transformers. Relays allow bypassing
+the WorldFIP CCA when it is not operational. Fritting circuitry
+are provided. </para><para reuse="all">One FULLFIP2 controller is provided in an MQFP100
+package.</para><para reuse="all">The WorldFIP CCA comprises 256 Kb x 16 SRAM.
+The FIPCODE executes from this SRAM. The FIPCODE is programmed into
+the SRAM through the CPU MPC8250 CF CCA.</para><para reuse="all">The WorldFIP line interface consist of the following
+elements:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">One
+FPGA to implement repeater and signature logic</para></list-item><list-item><para reuse="all">Four FIELDRIVE line drivers</para></list-item><list-item><para reuse="all">Four FIELDTR1S line isolation transformers</para></list-item><list-item><para reuse="all">Two fritting sources</para></list-item><list-item><para reuse="all">Two fritting loads</para></list-item><list-item><para reuse="all">Protection circuitry as required</para></list-item><list-item><para reuse="all">Bypass relays. </para></list-item></list><para reuse="all">Four Double Pole-Double Throw (DPDT) bypass
+relays are provided. These will electrically isolate the WordFIP
+CCA from the WorldFIP networks when the CCU does not have power,
+when the CCU is reset, or when the CPLD has not been configured
+to enable the WorldFIP CCA line interfaces. The bypass is removed
+under software control. One bypass relay is provided for each WorldFIP interface,
+and each relay is individually software-controllable.</para><para reuse="all">Two galvanically-isolated fritting sources are
+provided. The fritting sources are controlled by the CPLD. Two galvanically
+isolated fritting loads are provided. The fritting sources are monitored
+by the CPLD.</para></section><section reuse="all"><title id="ID20065199454142851">ACB CCA</title><para reuse="all">The ACB CCA which includes the ACB DSP Mezzanine
+CCA are responsible for supporting audio interfaces for IC, PA,
+PAA and for routing all car-level audio signals. Both automated
+messages (outgoing) and PA message recording (incoming) are supported.
+It also provides interface to audio Trainline (T/L) and PA T/L.
+It implements the CCU location ID strapping decoding for the power
+supply CCA, and provides noise level inputs for the AOLA.</para><para reuse="all">The Digital Signal Processor (DSP) is capable
+of handling two 64 Kbps International Telecommunication Union (ITU)
+G.722 channels simultaneously. All digital audio is compressed by using
+the ITU G.722 algorithm for storage (PA recording) and transmission
+to or from the WorldFIP network. Pre-recorded audio of the voice
+database is also stored with the G.722 format on the CPU CCA flash
+memory. An analog device ADSP-BF533SBBZ500 DSP is used to encode
+and decode all CODEC audio packets in the ITU G.722 format.</para><para reuse="all">Dual-ported Random Access Memory (DPRAM) is
+provided to allow the CCU application to interface with the DSP.</para><para reuse="all">A SRAM (64 Mb x 16 SDRAM) is used for DSP configurations.</para><para reuse="all">A 4 Mb flash memory is provided to store the
+DSP application. The application will reside in the DSP flash memory
+and on the CPU CCA flash memory (part of the CCU Software Configuration Item
+(SCI)). At boot-up, the CCU application loads the DSP application
+in the DSP flash memory if a Cyclic Redundancy Check (CRC) error
+is encountered.</para><para reuse="all">The audio Line Interface Units (LIU) is galvanically
+isolated. Each LIU is differential and has a nominal impedance of
+600 Ω. </para><para reuse="all">The following analog interfaces are provided:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Five
+bidirectional audio interfaces (three CCP, one PEI, and one CCCP)</para></list-item><list-item><para reuse="all">One audio output interface (PAA)</para></list-item><list-item><para reuse="all">Two bidirectional audio trainline
+interfaces (IC and PA). </para></list-item></list><para reuse="all">The PA System includes the microphones, amplifiers,
+speakers, and associated wiring and other circuits. The PA System
+has the following performance characteristics in operation.</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Frequency
+response is ±3 dB minimum from 80 to 8,000 Hz</para></list-item><list-item><para reuse="all">Total Harmonic Distortion (THD) at
+1kHz is as follows: </para><list type="bulleted" reuse="all"><list-item><para reuse="all">Microphone
+input (Sound Pressure Level (SPL)) to output (audio electrical signal):
+Less than 1 percent</para></list-item><list-item><para reuse="all">Speaker input (audio electric signal)
+to output (SPL): Less than 1 percent</para></list-item><list-item><para reuse="all">PA system from Microphone electrical
+input to speaker electrical output: Less than 1  percent.</para></list-item></list></list-item><list-item><para reuse="all">Signal to Noise Ratio: Less than
+100:1.</para></list-item></list><para reuse="all">The PA control trainline are sensed and controlled
+by the ACB CCA. The sense input and control output are galvanically
+isolated from the CCU. The ACB latches the CCU location ID strapping, whereas
+the power supply CCA provides the actual 74 Vdc isolated inputs
+circuitry.</para><para reuse="all">A 836 multi-channel CODEC is used for analog
+to digital and digital to analog conversion.</para><para reuse="all">Integrated circuit analog switch arrays are
+used to multiplex and route signals between the LIUs and the two
+CODECs, as required. The switch arrays are under the control of
+the CPU MPC8250 CCA.</para></section><section reuse="all"><title id="ID20065199454152111">PAA and
+Door Chime</title><section reuse="all"><title id="ID20065199454161721">PAA/Door
+Chime</title><para reuse="all">The PAA is completely solid state and is housed
+in the CCU. The PAA amplifies the analog audio signal from the ACB
+CCA and distributes it to the PA speaker systems through a 70.7 V
+output transformer.</para><para reuse="all">The amplifier operates continuously with full
+output, at the rated input voltage, without damage to the components.</para></section><section reuse="all"><title id="ID20065199454171351">Audio Level
+Requirements</title><para reuse="all">A minimum compression range is provided by the
+18 dB microphone pre-amplifier with a maximum output level variation
+of 2 dB at the compressor output. The amplifier is designed such that
+the audio outputs to the trainlines and speakers have a consistent
+level when the operator’s mouth is between 2 and 12 inches from
+the microphone. The line amplifier, through the ACB CCA, is capable
+of delivering a minimum of +20 dBm into an impedance of 200 to 600 Ω
+with less than 1 percent total harmonic distortion. The electronics
+have a THD less than 1 percent measured, from microphone input to
+speaker output.</para></section><section reuse="all"><title id="ID20065199454181021">Door Chime
+Features</title><para reuse="all">Four independent 1 W door chime audio outputs
+are added to the PAA for the interior speakers and two 16 W audio
+outputs for the exterior speakers. Four audio outputs are connected to
+the interior speakers and two to the exterior speakers. Each output
+is controlled directly by the door controller of its zone through
+discrete isolated inputs (low voltage distribution network level)
+so the door chime is heard when a door chime request is present
+for each zone. Four audio outputs are implemented to drive the interior
+speakers and two to drive the exterior speakers. The door chime
+on the interior speakers is mixed with the other audio announcements
+and complies with the same audio quality requirement as a standalone
+PA announcement. The door chime on the exterior speakers play the
+door chime only. The following table identifies the input to output
+relationship and speakers connections.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID20065199454190731">Door Chime Input to Output Relationship</title><tgroup cols="3" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="2.250in"></colspec><colspec colnum="2" colname="2" colwidth="1.500in"></colspec><colspec colnum="3" colname="3" colwidth="3.000in"></colspec><thead><row rowsep="1"><entry colname="1" align="center">DISCRETE INPUTS (FROM DCU OUTPUTS)</entry><entry colname="2" align="center">DOOR CHIME AUDIO OUTPUT</entry><entry colname="3" align="center">PA SPEAKER LOCATION</entry></row></thead><tbody><row rowsep="1"><entry colname="1">Input 1 or input 2</entry><entry colname="2" align="center">Output 2</entry><entry colname="3">End 1 vestibule (two speakers)</entry></row><row rowsep="1"><entry colname="1">Input 5 or input 6</entry><entry colname="2" align="center">Output 3</entry><entry colname="3">End 1 quarter point doors (two speakers)</entry></row><row rowsep="1"><entry colname="1">Input 5 or input 6</entry><entry colname="2" align="center">Output 4</entry><entry colname="3">End 2 quarter point doors (two speakers)</entry></row><row rowsep="1"><entry colname="1">Input 3 or input 4</entry><entry colname="2" align="center">Output 5</entry><entry colname="3">End 2 vestibule (two speakers)</entry></row><row rowsep="1"><entry colname="1">Input 2, input 4, or input 6</entry><entry colname="2" align="center">Output 6</entry><entry colname="3">Right side exterior speakers (two speakers)</entry></row><row rowsep="0"><entry colname="1">Input 1, input 3, or input 5</entry><entry colname="2" align="center">Output 7</entry><entry colname="3">Left side exterior speakers (two speakers)</entry></row></tbody></tgroup></table><para reuse="all">The pulsed signal of 50 percent duty cycle is
+generated by a hardware sound generator circuit playing back pre-defined
+door chime files. A quantity of ten door chime files allow maintenance
+crew to select, using the PTE, the desired pre-defined periods covering
+a span of 0.5 to 1.5 seconds. The files are factory programmed in
+the flash memory.</para><para reuse="all">The volume of each chime output is adjustable
+independently of the other audio levels with a range of 75 to 95
+dB at 1 meter from the PA/Door Chime speakers installed inside the
+car. The level adjustment is done using the PTE.</para><para reuse="all">The door chime output is directly controlled
+by the hardware input signal in order to reduce the activation delay
+to a minimum. All door chime audio outputs originate from the same CCU
+audio source so all door chime interior and exterior speakers will
+play a synchronized door chime (50 percent duty cycle on and off
+at the same time). </para><para reuse="all">Each door chime CCU speaker output will have
+the capability to independently mute by software a PA announcement
+without affecting the ongoing door chime. This feature is required
+to prevent PA feedback in the CCP.</para></section><section reuse="all"><title id="ID20065199455200471">PAA Amplifier
+CCA</title><para reuse="all">The audio power amplifiers are made of three
+high-efficiency class D audio power amplifiers with very low dissipation.
+A single 25 W amplifier is implemented for the PAA main output and
+four 10 W amplifiers for the door chime output for the interior
+PA speakers and two 16 W amplifiers for the door chime output for
+the exterior PA speakers. The power amplifier integrated circuit
+is a dual channel (stereo) device that can be connected in single-ended
+or in bridge-tied load configuration. This feature is used to produce
+the main output of the PAA, through one bridge-tied load device,
+and the six-door chime outputs, through two single-ended devices.</para><para reuse="all">The power amplifier features are the following:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">High
+efficiency (~90 %)</para></list-item><list-item><para reuse="all">Low quiescent current (55 mA)</para></list-item><list-item><para reuse="all">Low distortion (less than 0.1 %)</para></list-item><list-item><para reuse="all">No switch-on nor switch-off plop
+noise</para></list-item><list-item><para reuse="all">Short-circuit-proof across the load
+and to the supply lines</para></list-item><list-item><para reuse="all">Electrostatic discharge protection</para></list-item><list-item><para reuse="all">Thermal protection</para></list-item><list-item><para reuse="all">Industrial operating temperature
+range (from -40 to +85 °C)</para></list-item></list></section><section reuse="all"><title id="ID20065199455210611">PAA Transformer
+Assembly</title><para reuse="all">All outputs are fed through a 70 V line distribution
+amplifier. The main output transformer is rated to 25 W nominal
+and the door chime output transformers are rated to 10 W for the
+interior outputs (4x) and 16 W for the exterior outputs (2x).</para><para reuse="all">The PAA transformer CCA provides transient protection
+on the PAA speaker output lines.</para></section><section reuse="all"><title id="ID20065199455220961">PAA Controller
+CCA</title><para reuse="all">Potentiometers are used to adjust the gain of
+each equalizer band to obtain the desired frequency response. The
+set point of each potentiometer is then measured and fixed resistors
+are installed in the production PAA units in order to reproduce
+the same frequency response</para><para reuse="all">The center frequencies of the three bands of
+the equalizer are 250 Hz, 1000 Hz, and 3500 Hz. Each band has a
+Q factor of 1.5 and an adjustable gain of ±12 dB.</para><para reuse="all">The J1708 communication circuit is the same
+as for the communication panels. </para><para reuse="all">The digital potentiometers are used to allow
+the CCU software to control audio levels from 0 to 100 percent of
+the output signal.</para><para reuse="all">A flash memory of a minimum of 128 KB is used
+to store ten digital audio chime files. Each file is preset for
+the period interval identified in Table <ref-container><iref ref-id="BGBFHCDH"></iref></ref-container>. All digital audio files
+are factory-programmed.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="BGBFHCDH">Door Chime Pre-defined Period Values</title><tgroup cols="2" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><thead><row rowsep="1"><entry colname="1" morerows="1">INTERVAL</entry><entry colname="2">PERIOD</entry></row><row rowsep="1"><entry colname="2">(SECONDS)</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">1</entry><entry colname="2" align="center">0.38</entry></row><row rowsep="1"><entry colname="1" align="center">2</entry><entry colname="2" align="center">0.51</entry></row><row rowsep="1"><entry colname="1" align="center">3</entry><entry colname="2" align="center">0.64</entry></row><row rowsep="1"><entry colname="1" align="center">4</entry><entry colname="2" align="center">0.77</entry></row><row rowsep="1"><entry colname="1" align="center">5</entry><entry colname="2" align="center">0.90</entry></row><row rowsep="1"><entry colname="1" align="center">6</entry><entry colname="2" align="center">1.02</entry></row><row rowsep="1"><entry colname="1" align="center">7</entry><entry colname="2" align="center">1.15</entry></row><row rowsep="1"><entry colname="1" align="center">8</entry><entry colname="2" align="center">1.28</entry></row><row rowsep="1"><entry colname="1" align="center">9</entry><entry colname="2" align="center">1.41</entry></row><row rowsep="0"><entry colname="1" align="center">10</entry><entry colname="2" align="center">1.54</entry></row></tbody></tgroup></table><para reuse="all">The digital-to-analog converter chime allows
+a minimum of 16 K samples per seconds, with a resolution of 12 bits.</para><para reuse="all">Six 74 Vdc hardware inputs on the CCU activate
+the corresponding PA/door chime speaker outputs. Each input is a
+hardware line coming from the DCU in the zone requesting a door chime.
+The chime starts upon the presence of 74 Vdc on the input and stops
+on the absence of signal (0 V). The four inputs are galvanically
+isolated with optical couplers on the PAA power supply CCA and are
+limited to 0.4 A at 74 Vdc.</para></section><section reuse="all"><title id="ID20065199455231351"> PAA Power
+Supply CCA</title><para reuse="all">The PAA power supply CCA converts the Low Voltage
+Distribution Network (74 Vdc nominal) power to 5 Vdc and 3.3 Vdc
+for the PAA logic and audio input circuits, and to ±25 V for the power
+amplifier section.</para><para reuse="all">The PAA power supply CCA is based on isolated
+switching DC-DC converters.</para><para reuse="all">The normal PAA power consumption for each output
+is expected to be as follows:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">5 V
+at 1 W</para></list-item><list-item><para reuse="all">3.3 V at 1 W</para></list-item><list-item><para reuse="all">±25 V at 75 W. </para></list-item></list><para reuse="all">The nominal input power does not exceed 90 W
+under normal operating conditions. An inrush current limiter is
+provided, limiting inrush current to 3 A maximum.</para><para reuse="all">The PAA power supply is powered by the Low Voltage
+Distribution Network, and operates normally at input voltages in
+the range of 46 to 85 Vdc. The PAA power supply starts as the input
+voltage rises above 46 Vdc +0 V/-2 V, and the hysteresis between
+startup and shutdown is 2 Vdc minimum. The PAA power supply CCA
+cannot be damaged by the continuous application of voltages below
+46 Vdc.</para><para reuse="all">The PAA power supply includes transient protection
+and reverse polarity protection as required by IEC 60571. </para><para reuse="all">The transient protection circuit is capable
+of absorbing an 80 W/s transient. To meet this requirement, the
+6U power (74 V) CCA is tested in accordance with IEC 61000-4-5,
+level 4, except that the line-to-line test voltage is 4 kV ±10 percent.
+The source impedance for the test is 2Ω.</para><para reuse="all">A diode is provided for protection against the
+application of reverse voltage. The reverse protection diode has
+a breakdown rating of 1000 V. The inrush limiter transistor breakdown
+rating is 400 V.</para><para reuse="all">Electrical isolation from the Low Voltage Distribution
+Network to the PAA power supply output is 1,148 VAC minimum. There
+is appropriate circuitry to avoid charge cumulation between the
+74 Vdc and the DC-DC converters.</para><para reuse="all">The electrical isolation from the Low Voltage
+Distribution Network to chassis ground is 1,148 Vac minimum. The
+electrical isolation from the chassis ground to any PAA output is
+1,148 Vac minimum.</para></section></section></section><section reuse="all"><title id="ID20065199455242261">Cab Communication
+Control Panel</title><para reuse="all">Figure <ref-container><iref ref-id="ID20065199455253381"></iref></ref-container> illustrates
+the Cab Communication Control Panel (CCCP) unit block diagram. </para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0012.cgm" impsize="6.975in 3.971in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="4.000in" nsoffset="0.000in" id="ID20065199455253381"></graphic><title id="ID20065199455264531">CCCP Unit Block Diagram </title></illustration><para reuse="all">The CCCP is operative only when the NJ Transit
+standard coach key is inserted into the master key switch of the
+cab master door controller panel, or when the reverser handle is
+inserted into the master controller in the operating cab. </para><para reuse="all">When the microphone is activated, the CCU software
+mutes all end vestibule public address speakers to prevent audio
+feedback. A contact relay in the panel allows muting PA speakers
+connected on the PAA main audio line. An array of three microphones
+is used in the CCCP.</para><para reuse="all">The CCCP communication panel CCA includes a
+J1708 serial control, an automatic gain control circuit, a speaker
+amplifier, and a microphone pre-amplifier.</para></section><section reuse="all"><title id="ID20065199455275691">Communication
+Control Panel</title><para reuse="all">Figure <ref-container><iref ref-id="ID20065199455286901"></iref></ref-container> illustrates
+the Communication Control Panel (CCP) unit block diagram. </para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0013.cgm" impsize="6.975in 3.971in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="4.000in" nsoffset="0.000in" id="ID20065199455286901"></graphic><title id="ID20065199455298141">CCP Unit Block Diagram</title></illustration><para reuse="all">An array of three microphones is used in the
+CCP to ensure low feedback and attenuate background noise. The signal
+from the three microphones are processed to maximize the array’s
+directivity by summing all three signals. This summation, combined
+with proper microphone position, attenuates out-of-phase signals
+(sound coming from the side), and amplifies only in-phase signals
+(sound coming from a source directly in front of the CCP).</para><para reuse="all">When the microphone is activated, the CCU software
+mutes the PA speakers closest to the panel to prevent audio feedback.
+The muting is under software control. A contact relay in the panel
+allows muting PA speakers connected on the PAA main audio line.
+The key switch is an opto-mechanical device identifying the uniqueness
+of the standard key. </para><para reuse="all">All CCP units are physically identical but,
+under control of the Communication Control Unit (CCU), CCP1 (cab
+back wall) has a specific behavior: When the standard coach key
+is inserted into the master key switch of the cab master door controller
+panel, or when the reverser handle is inserted into the operating cab’s
+master controller, that cab’s CCP1 is set to intercom monitoring
+mode (that is, speaker-only mode). </para><para reuse="all">The CCP communication panel CCA includes a J1708
+serial control, an automatic gain control circuit, a speaker amplifier,
+and a microphone pre-amplifier.</para></section><section reuse="all"><title id="ID20065199455309391">Passenger
+Emergency Intercom Panels</title><para reuse="all">Figure <ref-container><iref ref-id="ID20065199455320701"></iref></ref-container> illustrates
+the Passenger Emergency Intercom (PEI) unit block diagram. </para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0014.cgm" impsize="6.975in 3.971in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="4.000in" nsoffset="0.000in" id="ID20065199455320701"></graphic><title id="ID20065199455332041">PEI Unit Block Diagram</title></illustration><para reuse="all">The PEI communication panel CCA includes a J1708
+serial control, an automatic gain control circuit, a speaker amplifier,
+and a microphone pre-amplifier.</para><para reuse="all">The PEI provides a discrete input connected
+to the External Push-to-call (EPTC) pushbutton, a normally closed
+pushbutton. EPTC is a remote for the PEI5 (toilet) <verbatim>PUSH
+TO CALL</verbatim> pushbutton. </para></section><section reuse="all"><title id="ID20065199455343391">PA Speaker,
+Transformer, and Noise Sensing Microphones</title><para reuse="all">The PA speakers have two configurations:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">With
+AOLA (for PA announcement volume adjustment, using noise sensing
+microphones)</para></list-item><list-item><para reuse="all">Without AOLA. </para></list-item></list><para reuse="all">Both configurations have the following specifications:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">Frequency
+response: ±3 dB minimum from 80 Hz to 8.000 Hz</para></list-item><list-item><para reuse="all">THD: Less than 1 % at 1KHz</para></list-item><list-item><para reuse="all">Signal to noise ratio: Less than
+100:1. </para></list-item></list><para reuse="all">The enclosures are constructed to prevent mechanical
+resonance and vibration to occur.</para><para reuse="all">The speakers are of the direct radiating, permanent
+magnet field type capable of handling up to 10 W of audio power,
+with an outside diameter of 6 in. (nominal), and an impedance of
+8 Ω. The speakers are phased so that when the primary is connected
+to the distribution line according to labelling, all speaker cones
+are moving in the same direction at the same time. The nominal axial
+sensitivity is at least 92 dB at four feet with one-W input. The
+speakers have a wide dispersion characteristic and are moisture-resistant. All
+ferrous metal parts are made rust-resistant by plating.</para><para reuse="all">The transformer is a 70 V line matching transformer
+with four, two, and one Watt power taps. The transformer-end of
+the lead is arranged to permit connection or reconnection of the
+conductors to any taps. The secondary of the transformer properly
+matches the voice coil of the speaker. The primary of the matching
+transformer is connected to the speaker distribution wires connected
+in parallel with uniform polarity to the PAA/door chime audio output
+CCA. The transformer is moisture resistant. All ferrous metal parts
+are made rust resistant by plating.</para><para reuse="all">A noise sensing microphone is installed in four
+PA speakers to implement for AOLA function. These PA speakers are
+located in the ceiling of the car in the following areas: one in
+each mid-level section, one in the lower level, and one in the upper
+level. These locations represent areas of the car where noise levels
+are considered very different.</para><para reuse="all">The sensing microphone signals provide the required
+input stimulus to the AOLA function. The AOLA function automatically
+adjusts the PA speaker audio output level 10 dB above the calculated
+noise level up to a level of 90 dB. The calculated noise level is
+an average value of each sensing microphones, which are weighted
+to compensate for sonorous sections of the car. Each weight values
+can be configured by the PTE. The compensation will be established
+when car noise data are provided. The noise sensing microphones
+are sampled at a rate of 1 Hz between PA announcements for an integration
+period of 5 seconds. The last five samples are used to establish
+the PAA PA speaker output level. For example, if a manual announcement
+is made two seconds after an automatic announcement, the three samples
+before the automatic announcement and the two samples after are
+used to compute the noise level in the car. Each sample level is
+translated in a logarithmic scale to reduce the signal dynamic range.
+The logarithmic signal is modulated in PWM and sent to the ACB CCA.
+The signal is then demodulated, weighted, and stored for noise level
+calculation. The noise level calculation is the average level of
+all four weighted values of the last five samples. </para></section><section reuse="all"><title id="ID20065199455354791">VHF Train
+Radio</title><para reuse="all">The VHF Radio Unit is capable of operating on
+all frequencies in the 148-174 MHz band at a maximum power output
+of 45 W. Up to 256 channels can be programmed, among which 99 are
+American Association of Railroad (AAR) channels. </para><para reuse="all">The radio is interchangeable with the Comet
+IV and Comet V Motorola radios. The radio is energized by the LVPS
+through its own circuit breaker. The radio is operative from 45
+to 90 Vdc.</para><para reuse="all">The train radio communication mode is the highest
+priority in the event of a communication system failure. The CCCP
+directly connects the microphone, pushbutton, speaker, and any other
+required components to the radio in such an event.</para><para reuse="all">Radio circuitry includes a transmitter time-out-timer
+feature to prevent inadvertent lockout of the transmitter.</para><para reuse="all">Transient filter protections are designed as
+an integral part of the radio and provides adequate protection from
+transients of the type encountered in commuter car and locomotive
+applications.</para><para reuse="all">The radio’s channel selection and operating
+modes are programmable by a laptop computer (IBM compatible). Radio
+disassembly is not required to connect the computer to the radio
+unit for programming.</para><para reuse="all">The radio meets the AAR design criteria.</para><para reuse="all">The radio is remotely controlled from the CCCP,
+however, the radio is operative even when the CCU is not functional.
+This avoids the CCU application to be part of radio control and
+possibly lock the radio when CCU application problem occurs. </para><para reuse="all">The radio is set up to transmit and receive
+on the 10 channels listed in Table <ref-container><iref ref-id="ID20065199455366421"></iref></ref-container>.</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="ID20065199455366421">Channels / Frequencies</title><tgroup cols="4" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="1.125in"></colspec><colspec colnum="4" colname="4" colwidth="1.125in"></colspec><thead><row rowsep="1"><entry colname="1" align="center">CHANNEL</entry><entry colname="2" align="center">FREQ. (MHZ)</entry><entry colname="3" align="center">CHANNEL</entry><entry colname="4" align="center">FREQ. (MHZ)</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">1</entry><entry colname="2" align="center">161.400</entry><entry colname="3" align="center">6</entry><entry colname="4" align="center">160.650</entry></row><row rowsep="1"><entry colname="1" align="center">2</entry><entry colname="2" align="center">160.800</entry><entry colname="3" align="center">7</entry><entry colname="4" align="center">160.890</entry></row><row rowsep="1"><entry colname="1" align="center">3</entry><entry colname="2" align="center">161.010</entry><entry colname="3" align="center">8</entry><entry colname="4" align="center">160.860</entry></row><row rowsep="1"><entry colname="1" align="center">4</entry><entry colname="2" align="center">160.920</entry><entry colname="3" align="center">9</entry><entry colname="4" align="center">161.010</entry></row><row rowsep="0"><entry colname="1" align="center">5</entry><entry colname="2" align="center">161.235</entry><entry colname="3" align="center">10</entry><entry colname="4" align="center">160.455</entry></row></tbody></tgroup></table></section><section reuse="all"><title id="ID20065199455378161">Destination
+Signs</title><section reuse="all"><title id="ID20065199455390291">Internal
+Architecture</title><para reuse="all">The internal architecture of each sign is depicted
+in Figure <ref-container><iref ref-id="ID20065199455402441"></iref></ref-container>.
+Each sign is based on the same internal architecture. A 74 Vdc power
+supply is provided and converted down to the appropriate voltage
+required by the internal electronic components. A LonWorks controller
+interfaces with the external LonWorks network. The controller manages
+the messages displayed on the LCD tiles. Depending on the type of signs,
+8 or 15 LCD tile sets are installed into the signs. All LCD PCB
+drivers are daisy-chained to one another for passing of information:
+the LON controller pushes the message composition to the LCD tiles over
+TTL.</para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\OER0016.cgm" impsize="6.984in 8.247in" impby="ref" position="below" align="acenter" cropped="1" float="0" angle="0.000" height="8.250in" nsoffset="0.000in" id="ID20065199455402441"></graphic><title id="ID20065199455414621">Destination Sign Block Diagram</title></illustration><para reuse="all">The subsystem configuration is based on displays
+with individual power supply and LON CPU interface controller. With
+this arrangement, each sign can display independent information.
+For diagnostic purposes, the last tile is linked with the LON controller.
+In this way, it is possible to see whether the information has gone
+through all the LCD tiles without corruption.</para><para reuse="all">All the electronic signs are based on an Echelon
+FT3150 processor, which interfaces with the Lonworks network, manages
+the display portion and takes care of logging faults and information.
+This FT3150-P20 combined with an Echelon FT-X1 communication transformer
+is used for the LON interface.</para><para reuse="all">The LON Controller features static memory used
+to store non-volatile information e.g. fonts and special characters,
+logs and configuration file. The static memory does not need to
+be battery backed. A Flash memory is exclusive to the code and RAM
+is used for temporary data.</para><para reuse="all">A temperature sensor is used to monitor the
+internal temperature and reduce the LED backlight intensity in case
+of high temperatures, to extend the life span of the LCD tiles (which
+are sensitive to heat). Each LCD character is a 105-segment mosaic
+that reproduces any character from A to Z (upper case or lower case)
+and numbers from 0 to 9.</para></section><section reuse="all"><title id="ID20065199455426811">System
+Initialization</title><para reuse="all">This is the first mode of operation of each
+display in the system at power-up. Once all physical connections
+are established and a sign is powered on, it steps through a boot
+sequence that includes a self-test. If necessary, the sign accepts
+to be configured by the MCU.</para><para reuse="all">The power-on self-test includes the following
+checks:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">A
+checksum calculation test for font file.</para></list-item><list-item><para reuse="all">A checksum calculation test for configuration file.</para></list-item><list-item><para reuse="all">A verification of the data path internal
+to the sign verifies that the characters sent to display come back
+to the controller without error. This ensures that the electronic
+data line is not corrupted.</para></list-item><list-item><para reuse="all">A verification of the temperature
+sensor inside the sign. When temperature is detected high, the backlight
+intensity is reduced and an event is triggered. This increases the
+lifetime of the LCD modules and the LED backlight.</para></list-item></list><para reuse="all">The configuration is location-dependent (including
+left side/right side). If after configuration the sign is moved
+to a different location, the sign reverts to unconfigured state
+and enters the boot sequence.</para><para reuse="all">Because the same software runs on all signs,
+which are similar in terms of functionality except for number of
+characters displayed, the software recognizes on which type of sign
+it is executing. The sign identifies itself by reading from the
+connector’s 4-bit address. If the connection is unavailable, as
+when the sign is being debugged on a BTE, the sign will differentiate
+its type (8 or 15 characters) by reading from an internal jumper. </para></section><section reuse="all"><title id="ID20065199455439061">System
+Operation In Normal Mode</title><para reuse="all">This mode of operation follows the successful
+completion of Initialization Mode. In this mode, the CCU can transmit
+data, which signs receive and process. For example, next station
+information can be sent to the Interior Message Signs. In addition,
+any continual diagnostic data requests by the MCU can now be transmitted
+by the signs.</para><para reuse="all">Self-diagnostics are continuously run. To increase
+the lifetime of the LCD tiles and the LED backlight, temperature
+sensors cause the backlighting intensity to be reduced (degraded
+mode) and an event to be triggered when internal temperature falls
+outside limits. Hardware self-tests and display tests can also be
+called on demand. </para></section><section reuse="all"><title id="ID20065199455451461">System
+Operation In Degraded Mode</title><para reuse="all">This mode of operation is initiated when the
+internal temperature rises above (or falls below) a set point in
+the upper part (or lower part) of the operating range specified.
+The signs will operate in degraded mode (reduced LED intensity)
+at high temperature. If the temperature exceeds a specified upper
+limit the LED backlight will automatically be turned off. If the
+temperature goes below the lower thresholds, the LCD Tiles are turned
+off, and the LED backlight stays on to warm up the sign. In addition, the
+signs incorporate logic to ensure that the LED panel brightness
+does not flicker when the ambient temperature is near the set point
+or the cutoff temperature.</para><para reuse="all">Note that the LCD tiles are turned off when
+temperature falls below -10 °C and are turned back on only when
+the temperature climbs back to -5 °C.</para></section><section reuse="all"><title id="ID20065199455463901">System
+Operation In Maintenance Mode</title><para reuse="all">This mode of operation is initiated by connecting
+the PTE laptop to the CCU or the DCN. Maintenance mode allows the
+operator to perform diagnostic tests to isolate faulty or defective
+signs. This mode also allows the operator to record and report all
+faults and failures. The maintenance mode operation are transparent
+to normal mode operation, except for visual tests that display test
+sequence of characters, which override any messages sent by the
+CCU. Once maintenance mode is terminated the sign will return to
+displaying the message sent by the CCU.</para></section><section reuse="all"><title id="ID20065199456476401">System
+Operation In Load Shed Mode</title><para reuse="all">Load shed mode is managed by two bits of the
+car status, plus an internal timer. Each sign’s backlight is turned
+off in order to reduce the load on the battery system. However,
+in this mode, the signs keep on receiving and displaying messages.</para></section><section reuse="all"><title id="ID20065199456488931">Network
+Interface</title><para reuse="all">All signs are considered as slaves over the
+network. Each individual sign communicates with other nodes via
+a LonWorks network. </para><para reuse="all">The signs receive messages to display as a text
+strings from the CCU. The signs exchange diagnostic and status information
+with the CLDS through network variables. Portable Test Equipment (PTE)
+allows system troubleshooting, log retrieval and viewing, self-tests
+on demand, configuration and font update via file upload, and neuron-based
+software upgrade.</para></section><section reuse="all"><title id="ID20065199456501491">Message
+Application Process</title><para reuse="all">The Neuron Chip handles all signs operations.
+A process transforms string messages received from the CCU to bit
+strings representing characters to be displayed on the LCD sign.
+Strings shorter than the maximum possible number of displayable
+characters are automatically centered. Strings longer than the maximum
+number of displayable characters are displayed in multiple pages,
+one page at a time.</para><para reuse="all">Signs accept the standard 8-bit ASCII codes
+(95 characters from 0x20 to 0x7F), including upper and lower case
+letters, digits from 0 to 9 and basic symbols (!”/$%?&amp;*( )+,-.:;&lt;&gt;[
+]#). Memory is reserved for an extra set of 127 special characters. </para></section></section></section></description></ib>

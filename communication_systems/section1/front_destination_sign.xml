@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="BOM01299" doc-type="MI" maint-item-desc="Front Destination Sign" part-number="05384010087S" doc-name="BOM01299_MI" doc-title="Front Destination Sign" lock-counter="14" search-index="mim-sys9-dno" show-e-list="yes" e-list-number="09 03 01" giid-maint-item-desc="Front Destination Sign" id-document="25922" id-document-version="99145" doc-version="1" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="9000999" device-name=""><maintenance-item><para reuse="all">The Front Destination Sign (FDS) displays text
+strings (the destination station) sent by the Communication Control
+Unit.</para><para reuse="all">The FDS unit is located at the F-end of the
+C Car, at the bottom of the left side windshield, and bolted
+to supports attached to the window structure. (See Figure <ref-container><iref ref-id="CHDFCHCF"></iref></ref-container>.) The unit weighs approximately
+9 lb and its extruded aluminium body, painted black, measures
+approximately 6.0 in. high, 24.5 in. wide, and
+4.2 in. deep. </para><para reuse="all">The display face of the FDS unit is oriented
+outside the train, pressed against the windshield. A neoprene foam
+gasket between the display face and windshield seals against dust
+and liquids.</para><para reuse="all">The cabin side of the FDS unit is protected
+by a metallic shroud. The shroud is hinged at the bottom edge, to
+ease maintenance, and secured with two captive, tamper-resistant
+quarter-turn fasteners.</para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\053J-752-005.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title id="CHDFCHCF">Front Destination Sign</title></illustration><para reuse="all">The FDS has a touch pad assembly with one pushbutton
+and three indicators.(See Table <ref-container><iref ref-id="CHDCGEEA"></iref></ref-container>.) </para><para reuse="all">A two-plug car wiring cable connects the 12-pin
+FDS connector, providing both car battery power and connections
+to the Data Car Network (DCN). A ground wire connects the FDS ground
+stud to the carbody. (See Table <ref-container><iref ref-id="CHDCGEEA"></iref></ref-container>.) </para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="CHDCGEEA">FDS Connections</title><tgroup cols="3" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="4.750in"></colspec><thead><row rowsep="1"><entry colname="1">PLUG ID</entry><entry colname="2">PIN NO.</entry><entry colname="3">DESCRIPTION</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">GND</entry><entry colname="2" align="center">3</entry><entry colname="3">Carbody ground</entry></row><row rowsep="1"><entry colname="1" morerows="1" align="center">FDSP1A</entry><entry colname="2" align="center">1,2</entry><entry colname="3"><para reuse="all">74 Vdc car battery power,
+supplied through 2-pole, 10 A circuit breaker <verbatim>SIGNS</verbatim> (CB46)</para></entry></row><row rowsep="1"><entry colname="2" align="center">4,5,6,7</entry><entry colname="3">Sign location and identification jumper pins</entry></row><row rowsep="0"><entry colname="1" align="center">FDSP1B</entry><entry colname="2" align="center">10,11,12</entry><entry colname="3">Connection lines to the Data Car Network </entry></row></tbody></tgroup></table></maintenance-item></ib>

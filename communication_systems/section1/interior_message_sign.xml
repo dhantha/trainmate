@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="BOM01300" doc-type="MI" maint-item-desc="Interior Message Sign" part-number="05384010088S" doc-name="BOM01300_MI" doc-title="Interior Message Sign" lock-counter="13" search-index="mim-sys9-dno" show-e-list="yes" e-list-number="09 03 03" giid-maint-item-desc="Interior Message Sign" id-document="25928" id-document-version="99146" doc-version="1" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="9000837" device-name="IMS"><maintenance-item><para reuse="all">The Interior Message Sign (IMS) displays text
+strings (text messages addressed to passengers) sent by the Communication
+Control Unit.</para><para reuse="all">Six IMS units (IMS1 to IMS6) are installed throughout
+the car. (See Figure <ref-container><iref ref-id="CHDEJCCF"></iref></ref-container> and
+Table <ref-container><iref ref-id="CHDDGGIE"></iref></ref-container>.) The IMS units are attached
+with screws to metallic parts of the wall panels. The metal contact
+provides a conduction path to the carbody for the heat generated
+inside the signs. Each unit weighs approximately 6 lb and
+its extruded aluminium body, painted black, measures approximately
+4.0 in. high, 28.0 in. wide, and 4.0 in.
+deep. </para><para reuse="all">The display face of the unit is oriented towards
+the center of the passenger compartment or quarter point vestibule.
+A painted steel mask, attached with tamper-resistant screws, finishes
+the IMS unit.</para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\053J-752-009.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title id="CHDEJCCF">Interior Message Sign</title></illustration><para reuse="all">The IMS has a touch pad assembly with one pushbutton
+and three indicators. (See Table <ref-container><iref ref-id="CHDDGGIE"></iref></ref-container>.)</para><para reuse="all">A two-plug car wiring cable connects to the
+12-pin IMS connector, providing both car battery power and connections
+to the Data Car Network (DCN). A ground wire connects the IMS ground
+stud <verbatim>GND</verbatim> to the carbody. (See Table <ref-container><iref ref-id="CHDDGGIE"></iref></ref-container>.)</para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="CHDDGGIE">IMS Connections</title><tgroup cols="3" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="4.750in"></colspec><thead><row rowsep="1"><entry colname="1">PLUG ID</entry><entry colname="2">PIN NO.</entry><entry colname="3">DESCRIPTION</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">GND</entry><entry colname="2" align="center">3</entry><entry colname="3">Carbody ground</entry></row><row rowsep="1"><entry colname="1" morerows="1" align="center">PA</entry><entry colname="2" align="center">1,2</entry><entry colname="3"><para reuse="all">74 Vdc car battery power,
+supplied through 2-pole, 10 A circuit breaker <verbatim>SIGNS</verbatim> (CB46)</para></entry></row><row rowsep="1"><entry colname="2" align="center">4,5,6,7</entry><entry colname="3">Sign location and identification jumper pins</entry></row><row rowsep="0"><entry colname="1" align="center">PB</entry><entry colname="2" align="center">10,11,12</entry><entry colname="3">Connection lines to the Data Car Network </entry></row></tbody></tgroup></table></maintenance-item></ib>

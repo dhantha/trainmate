@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="BOM01307" doc-type="MI" maint-item-desc="Side Destination Sign" part-number="05384010089S" doc-name="BOM01307_MI" doc-title="Side Destination Sign" lock-counter="17" search-index="mim-sys9-dno" show-e-list="yes" e-list-number="09 03 02" giid-maint-item-desc="Side Destination Sign" id-document="25940" id-document-version="99147" doc-version="1" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="9000838" device-name="SDS"><maintenance-item><para reuse="all">The Side Destination Sign (SDS) displays text
+strings (the destination station) sent by the Communication Control
+Unit.</para><para reuse="all">Two SDS units (SDS1 and SDS2) are located on
+the upper level of all cars. (See Figure <ref-container><iref ref-id="CHDFFFDA"></iref></ref-container> and Table <ref-container><iref ref-id="CHDIIDGJ"></iref></ref-container> The SDS units are bolted
+through the window mask to supports attached to the carbody. Each
+unit weighs approximately 13 lb and its extruded aluminium
+body, painted black, measures approximately 6.25 in. high,
+37.0 in. wide, and 4.0 in. deep. </para><para reuse="all">The display face of the unit is oriented outside
+the train, pressed against the side window glass. A hollow synthetic
+rubber gasket between the display face and window seals against
+dust and liquids. </para><para reuse="all">The cabin side of the SDS unit is protected
+by a fiberglass shroud. The shroud is hinged at the bottom edge, to
+ease access for maintenance, and secured with two captive, tamper-resistant
+quarter-turn latches. </para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\053J-752-006.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title id="CHDFFFDA">Side Destination Sign</title></illustration><para reuse="all">The SDS has a touch pad assembly with one pushbutton
+and three indicators. (See Table <ref-container><iref ref-id="CHDIIDGJ"></iref></ref-container>.)</para><para reuse="all">A two-plug car wiring cable connects to the
+12-pin SDS connector, providing both car battery power and connections
+to the Data Car Network (DCN). A ground wire connects the SDS ground
+stud to the carbody. (See Table <ref-container><iref ref-id="CHDIIDGJ"></iref></ref-container>.) </para><table frame="all" colsep="1" rowsep="1" reuse="all"><title id="CHDIIDGJ">SDS Connections</title><tgroup cols="3" colsep="1" rowsep="1"><colspec colnum="1" colname="1" colwidth="1.125in"></colspec><colspec colnum="2" colname="2" colwidth="1.125in"></colspec><colspec colnum="3" colname="3" colwidth="4.750in"></colspec><thead><row rowsep="1"><entry colname="1">PLUG ID</entry><entry colname="2">PIN NO.</entry><entry colname="3">DESCRIPTION</entry></row></thead><tbody><row rowsep="1"><entry colname="1" align="center">GND</entry><entry colname="2" align="center">3</entry><entry colname="3">Carbody ground</entry></row><row rowsep="1"><entry colname="1" morerows="1" align="center">SDS#PA</entry><entry colname="2" align="center">1,2</entry><entry colname="3"><para reuse="all">74 Vdc car battery power,
+supplied through 2-pole, 10 A circuit breaker <verbatim>SIGNS</verbatim> (CB46)</para></entry></row><row rowsep="1"><entry colname="2" align="center">4,5,6,7</entry><entry colname="3">Sign location and identification jumper pins</entry></row><row rowsep="0"><entry colname="1" align="center">SDS#PB</entry><entry colname="2" align="center">10,11,12</entry><entry colname="3">Connection lines to the Data Car Network </entry></row></tbody></tgroup></table></maintenance-item></ib>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="BOM01567" doc-type="MI" maint-item-desc="VHF Radio Antenna" part-number="05384040114S" doc-name="BOM01567_MI" doc-title="VHF Radio Antenna - MI" lock-counter="2" search-index="mim-sys9-dno" show-e-list="yes" e-list-number="09 01 07" giid-maint-item-desc="VHF Radio Antenna" id-document="265025" id-document-version="393705" doc-version="0" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name=""><maintenance-item><para reuse="all">The train VHF radio antenna unit allows the
+carborne radio VHF unit and wayside equipment to transmit radio signals. </para><para reuse="all">The unit is a low profile antenna attached to
+the roof shroud of the C Car, at the B-end. (See Figure <ref-container><iref ref-id="id201202100740260500BABEJHDI"></iref></ref-container>.)
+The antenna unit weighs 6 lb and measures approximately 25.0 in.
+long, 2.2 in. thick, and 4.0 in. high. </para><para reuse="all">A coaxial cable connects the antenna to the
+radio, located in the locker LC, at the F-end of the car. The coaxial
+cable plug <verbatim>RADAP</verbatim> connects to the type N, female
+connector on the underside of the antenna, through the car roof.
+A Silicone sealant provide a watertight joint between the antenna
+underside and the roof surface. The roof surface underneath the
+antenna provides the grounding pad for the antenna. </para><illustration reuse="all"><graphic file="..\..\Graphics\CGM\053J-751-012.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title>VHF Radio Antenna</title></illustration></maintenance-item></ib>
