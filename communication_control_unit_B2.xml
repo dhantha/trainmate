@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt-->
+<ib miid="BOM00764" doc-type="TASK" maint-item-desc="Communication Control Unit" part-number="05384100162S" task-code="B2" doc-name="BOM00764_TASK_B2" doc-title="Service CCU Software" lock-counter="24" search-index="mim-sys9-mp" show-e-list="yes" e-list-number="09 01 04" giid-maint-item-desc="Communication Control Unit" id-document="11543" id-document-version="342748" doc-version="5" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name="CCU"><task maintenance-level="" craft="" training-required="False" ref-task-no="" safety-hazard="False" personal-safety-equip="False" undocumented="False" service-interval="0" interval-unit="DAYS" estimated-time="0" task-use-on-code="CST" safety-related-task="False">
+	<pre-task>
+		<applicable-cars>C Car, S Car, T Car</applicable-cars>
+		<equipment-conditions>
+			<list type="enumerated" reuse="all">
+				<list-item>
+					<para reuse="all">Wheels chocked.</para>
+				</list-item>
+				<list-item>
+					<para reuse="all">No cab active.</para>
+				</list-item>
+				<list-item>
+					<para reuse="all">Communication Control Unit powered and active.</para>
+				</list-item>
+			</list>
+		</equipment-conditions>
+		<ref-docs>
+			<title>Replace Communication Control Unit – 09 01 04 H</title>
+		</ref-docs>
+		<maint-equipment reuse="all">
+			<special-tools>
+				<equipment-item>
+					<title id="ID20077171719555516">New Jersey Transit Coach Key</title>
+				</equipment-item>
+			</special-tools>
+		</maint-equipment>
+	</pre-task>
+	<activity>
+		<title id="ID20077171719556616">Install Communication Control Unit Software Package</title>
+		<safety reuse="all">
+			<hazard level="notification" symbol="warning1">
+				<hazard-desc>If performing the activities of this procedure determines that corrective maintenance is required, report it to supervision to ensure that proper corrective action is taken.</hazard-desc>
+			</hazard>
+		</safety>
+		<safety reuse="all">
+			<hazard level="notification" symbol="note">
+				<hazard-desc>Communication Control Unit (CCU) software service procedure is typical and also applies to destination signs.</hazard-desc>
+			</hazard>
+		</safety>
+		<safety reuse="all">
+			<hazard level="notification" symbol="note">
+				<hazard-desc>When performing maintenance, finding access doors unlocked on normally-secured lockers or cabinets must be reported to supervisor.</hazard-desc>
+			</hazard>
+		</safety>
+		<step>
+			<para reuse="all">Unlock and open locker L1 access door using NJ Transit coach key.</para>
+		</step>
+		<step>
+			<para reuse="all">Remove electronics rack shield/cover</para>
+		</step>
+		<safety reuse="all">
+			<hazard level="warning" symbol="electrical">
+				<hazard-desc>Cables connected to locker equipment can cause electrical shock. Exercise care whenever accessing any of the electrical lockers.Failure to do so may result in injury or death.</hazard-desc>
+			</hazard>
+		</safety>
+		<safety reuse="all">
+			<hazard level="warning" symbol="electrical">
+				<hazard-desc>The following steps are performed while some locker equipment may be powered. Exercise care whenever near powered equipment. Failure to do so may result in injury or death.</hazard-desc>
+			</hazard>
+		</safety>
+		<safety reuse="all">
+			<hazard level="caution" symbol="warning1">
+				<hazard-desc>CCU software may be updated using PCMCIA card, PTE, or MDU. PCMCIA card is the fastest way to update software, followed by the PTE, and finally by the MDU. Update CCU software using only one method.</hazard-desc>
+			</hazard>
+		</safety>
+		<safety reuse="all">
+			<hazard level="notification" symbol="warning1">
+				<hazard-desc>Updating software using MDU may be very long for large data and is practically only used for very small software package.</hazard-desc>
+			</hazard>
+		</safety>
+	</activity>
+	<activity>
+		<title>Update CCU Software Using PCMCIA Card</title>
+		<step>
+			<para reuse="all">Ensure that no files CCU_DYZ.tar.gz or XYZ.lzw are in root directory of PCMCIA card. If present, move files to another folder or delete.</para>
+		</step>
+		<step>
+			<para reuse="all">Copy software update package onto root directory of compatible PCMCIA card.</para>
+		</step>
+		<step>
+			<para reuse="all">Insert PCMCIA card into PCMCIA slot on CCU front panel.</para>
+		</step>
+		<step>
+			<safety reuse="all">
+				<hazard level="notification" symbol="warning1">
+					<hazard-desc>PCMCIA LED blinks quickly to indicate that CCU is looking for Software Configuration Item (SCI) update package. When LED blinks slowly, it means that CCU is beginning to update software package.</hazard-desc>
+				</hazard>
+			</safety>
+			<para reuse="all">Once PCMCIA LED stops blinking, remove PCMCIA card and proceed to activity “Verify Software Update and Close Locker”.</para>
+		</step>
+	</activity>
+	<activity>
+		<title>Update CCU Software Using PTE</title>
+		<step>
+			<para reuse="all">Connect PTE COM port to CCU Port using serial cable.</para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053L-300-001.GIF" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title>CCU PTE - Main Page </title>
+			</illustration>
+			<para reuse="all">Using PTE Windows, reach Network and Dial-up Connections and double-click PTE connection to CCU (possibly named CCU PTE) to reach PTE CCU main page.</para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053L-300-004.GIF" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title>CCU PTE - SCI Update</title>
+			</illustration>
+			<para reuse="all">In CCU PTE main page left menu, click on SCI Update to reach SCI Update screen.</para>
+		</step>
+		<step>
+			<para reuse="all">To upload SCI package onto CCU, click link “&gt; Click Here” to open standard browser window.</para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053L-300-003.GIF" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title>CCU PTE - SCI Update, Upload in CCU</title>
+			</illustration>
+			<para reuse="all">Use mouse to drag the SCI update package in ftp folder window.</para>
+		</step>
+		<step>
+			<para reuse="all">Wait until all softwares in SCI software package are uploaded and transfer completed.</para>
+		</step>
+		<step>
+			<safety reuse="all">
+				<hazard level="notification" symbol="warning1">
+					<hazard-desc>Depending on which software is installed, it can take several minutes for update and CCU may reboot by itself once updated.</hazard-desc>
+				</hazard>
+			</safety>
+			<para reuse="all">Click Start SCI Update button at bottom of SCI Update screen to start update.</para>
+		</step>
+	</activity>
+	<activity>
+		<title>Update CCU Software Using MCU</title>
+		<step>
+			<para reuse="all">Put software update in following directory of PCMCIA Card: \ml\swpkg\</para>
+		</step>
+		<step>
+			<para reuse="all">Insert PCMCIA card with access to Engineering Area, in MCU slot.</para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053J-000-007.gif" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title id="ID200771717195511216">MDU Train Overview Screen</title>
+			</illustration>
+			<para reuse="all">From MDU <verbatim>Train Overview</verbatim> screen, press softkey <verbatim>Eng. Area</verbatim>. </para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053J-800-001.gif" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title>Engineering Area Screen</title>
+			</illustration>
+			<para reuse="all">From MDU <verbatim>Engineering Area</verbatim> screen, press softkey <verbatim>Software Update</verbatim>. </para>
+		</step>
+		<illustration reuse="all">
+			<graphic file="..\..\Graphics\053J-000-004.GIF" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+			<title id="ID200771717195527116">MDU Software Update Screen</title>
+		</illustration>
+		<step>
+			<para reuse="all">From MDU <verbatim>Software Update - Software package Selection</verbatim> screen, use MDU navigation keys to select car system CCU PCMCIA software packages, click <verbatim>PCMCIA</verbatim> softkey
+				button in <verbatim>Source Media</verbatim> group, then click MDU
+				key <verbatim>E</verbatim> to accept.
+			</para>
+		</step>
+		<illustration reuse="all">
+			<graphic file="..\..\Graphics\053J-000-005.GIF" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+			<title id="ID200771717195537316">MDU Software - SCIs To Update</title>
+		</illustration>
+		<step>
+			<para reuse="all">From MDU <verbatim>Software Update - SCIs To Update</verbatim> screen, click <verbatim>Select All</verbatim> softkey button under <verbatim>Select Car System</verbatim> group, then
+				click <verbatim>Start Update</verbatim> softkey button.
+			</para>
+		</step>
+		<illustration reuse="all">
+			<graphic file="..\..\Graphics\053J-000-006.GIF" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+			<title id="ID200771717195549316">MDU Software Update Status Screen</title>
+		</illustration>
+		<step>
+			<para reuse="all">Watch software update progress from MDU <verbatim>Software Update - Status</verbatim> screen, clicking <verbatim>Confirm Install</verbatim> softkey button as required.</para>
+		</step>
+	</activity>
+	<activity>
+		<title>Verify Software Update and Close Locker</title>
+		<step>
+			<para reuse="all">Reboot CCU following SCI Package update.</para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053L-300-002.GIF" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title>CCU PTE - SCI Update, SCI Version</title>
+			</illustration>
+			<para reuse="all">Verify SCI Version numbers with PTE to ensure that the updates are successful using "SCI Versions" in left menu.</para>
+		</step>
+		<step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053L-300-005.GIF" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title>CCU PTE - Event Log (figure 38 page 44)</title>
+			</illustration>
+			<para reuse="all">Verify log with PTE using "Get Event Log" in left menu to ensure that no errors occurred during software upload.</para>
+		</step>
+		<step>
+			<para reuse="all">Remove PCMCIA Card Key if used.</para>
+		</step>
+		<step>
+			<para reuse="all">Replace electronics rack shield/cover.</para>
+		</step>
+		<step>
+			<para reuse="all">Close and lock locker L1 access door using NJ Transit coach key.</para>
+		</step>
+	</activity>
+	<follow-on-tasks>
+		<para reuse="all">Perform CCU Power-up Test. Refer to <task-ref-group><task-ref-number e-list-number="09 01 04" giid-maint-item-desc="Communication Control Unit" user-defined-1="" user-defined-2="" user-defined-3="" maint-item-desc="Communication Control Unit"><miid>BOM00764</miid><task-code>H</task-code></task-ref-number></task-ref-group>.</para>
+	</follow-on-tasks>
+</task>
+</ib>
