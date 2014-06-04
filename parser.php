@@ -4,11 +4,11 @@ $parser = xml_parser_create();
 function start($parser,$element_name,$element_attrs){
 	switch($element_name){
 		case "APPLICABLE-CARS":
-		echo "Applicable Cars: <br>";
+		echo "<br><b>Applicable Cars:</b> <br>";
 		break;
 		
 		case "EQUIPMENT-CONDITIONS":
-		echo "Equipment Condition: <br>";
+		echo "<b>Equipment Condition:</b> <br>";
 		break;
 		
 		case "PARA":
@@ -19,24 +19,28 @@ function start($parser,$element_name,$element_attrs){
 		echo "<font class=\"verbatim\">";
 		break;
 		
+		case "HAZARD-DESC":
+		echo "<font class=\"Hazard\">";
+		break;
+		
 		case "REF-DOCS":
-		echo "Reference Documents: <br>";
+		echo "<b>Reference Documents:</b> <br>";
 		break;
 		
 		case "SPECIAL-TOOLS":
-		echo "Special Tools: <br>";
+		echo "<b>Special Tools:</b> <br>";
 		break;
 		
 		case "TITLE":
-		echo "";
+		echo "<b>";
 		break;
 		
 		case "SUPPLIES":
-		echo "Supplies: <br><ul>";
+		echo "<b>Supplies:</b> <br><ul>";
 		break;
 		
 		case "CONSUMABLES":
-		echo "Consumables: <br><ul>";
+		echo "<b>Consumables:</b> <br><ul>";
 		break;	
 		
 		case "ACTIVITY":
@@ -53,6 +57,14 @@ function start($parser,$element_name,$element_attrs){
 		//echo $url;
 		echo "<img src=\"Graphics".$url1."\"/><br>";
 		break;
+		
+		case "IB":
+		$e_list = $element_attrs['E-LIST-NUMBER'];
+		$task_code = $element_attrs['TASK-CODE'];
+		$topic = $element_attrs['MAINT-ITEM-DESC'];
+		echo '<b>'.$e_list.' ' .$task_code.'</b><br>';
+		echo '<b>'.$topic.'</b><br>';
+		break;
 	}
 	/*
 	switch($element_attrs){
@@ -65,6 +77,10 @@ function start($parser,$element_name,$element_attrs){
 }
 function stop($parser,$element_name){
 	switch($element_name){
+	
+		case "IB":
+		echo "<br>";
+		break;
 		
 		case "APPLICABLE-CARS":
 		echo "<br><br>";
@@ -78,12 +94,16 @@ function stop($parser,$element_name){
 		echo "</font>";
 		break;
 		
+		case "HAZARD-DESC":
+		echo "</font>";
+		break;
+		
 		case "REF-DOCS":
 		echo "<br>";
 		break;
 		
 		case "TITLE":
-		echo "</li><br>";
+		echo "</b><br>";
 		break;
 		
 		case "PART-NUMBER":
@@ -98,10 +118,6 @@ function stop($parser,$element_name){
 		echo "<br>";
 		break;	
 
-		case "TITLE":
-		echo "";
-		break;
-		
 		case "LIST":
 		echo "</ul>";
 		break;
@@ -121,7 +137,7 @@ function char($parser,$data){
 }
 xml_set_element_handler($parser,"start","stop");
 xml_set_character_data_handler($parser,"char");
-$fp = fopen("cab_communication_control_panel_H.xml","r");
+$fp = fopen("communication_control_unit_B2.xml","r");
 
 while($data = fread($fp,4096)){
 	xml_parse($parser,$data,feof($fp)) or die (sprintf("XML Error: %s at line %d",xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser)));

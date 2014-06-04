@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt-->
+<ib miid="BOM00764" doc-type="TASK" maint-item-desc="Communication Control Unit" part-number="05384100162S" task-code="H" doc-name="BOM00764_TASK_H" doc-title="Communication Control Unit Replacement" lock-counter="34" search-index="mim-sys9-mp" show-e-list="yes" e-list-number="09 01 04" giid-maint-item-desc="Communication Control Unit" id-document="4487" id-document-version="342749" doc-version="9" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name="CCU">
+	<task maintenance-level="" craft="" training-required="False" ref-task-no="" safety-hazard="False" personal-safety-equip="False" undocumented="False" service-interval="0" interval-unit="DAYS" estimated-time="0" task-use-on-code="CST" safety-related-task="False">
+		<pre-task>
+			<applicable-cars>C Car, S Car, T Car</applicable-cars>
+			<equipment-conditions>
+				<list type="enumerated" reuse="all">
+					<list-item>
+						<para reuse="all">Wheels chocked.</para>
+					</list-item>
+					<list-item>
+						<para reuse="all">Circuit breaker <verbatim>DOOR CONTROL CB33</verbatim> switchedto OFF.</para>
+					</list-item>
+					<list-item>
+						<para reuse="all">Circuit breaker <verbatim>PA AMPLIFIER CB47</verbatim> switched to OFF.</para>
+					</list-item>
+					<list-item>
+						<para reuse="all">Circuit breaker <verbatim>COMMUNICATION SYSTEM CB48</verbatim> switched to OFF. </para>
+					</list-item>
+				</list>
+			</equipment-conditions>
+			<ref-docs>
+				<title>None.</title>
+			</ref-docs>
+			<maint-equipment reuse="all">
+				<special-tools>
+					<equipment-item>
+						<title id="ID20077171719545414">NJ Transit Coach Key</title>
+					</equipment-item>
+				</special-tools>
+				<supplies>
+					<equipment-item>
+						<title>Cab Car Communication Control Unit</title>
+						<part-number figure-file-name="P9-31_Fig.XML">05384100268S</part-number>
+					</equipment-item>
+					<equipment-item>
+						<title id="ID20065181313343424">S-Car and T-Car Communication Control Unit</title>
+						<part-number figure-file-name="P9-31_Fig.XML">05384100162S</part-number>
+					</equipment-item>
+					<equipment-item>
+						<title id="ID20089151529336">Lockwasher</title>
+						<part-number figure-file-name="P9-31_Fig.XML">053C227-205</part-number>
+					</equipment-item>
+				</supplies>
+				<consumables>
+					<equipment-item>
+						<title id="ID200810141392214">Ground lockwasher, sst 18-8, for no 10-24 stud</title>
+					</equipment-item>
+					<equipment-item>
+						<title id="ID20077171719547414">Torque-Seal</title>
+					</equipment-item>
+					<equipment-item>
+						<title id="ID200771717195410114">Cloth</title>
+					</equipment-item>
+					<equipment-item>
+						<title id="ID200771717195413014">Mineral Spirits</title>
+					</equipment-item>
+				</consumables>
+			</maint-equipment>
+		</pre-task>
+		<activity>
+			<title id="ID20065181313344324">Remove Communication Control Unit</title>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\CGM\053J-732-004.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title id="ID20065181313345524">CCU Replacement</title>
+			</illustration>
+			<safety reuse="all">
+				<hazard level="notification" symbol="note">
+					<hazard-desc>When performing maintenance, finding access doors unlocked on normally-secured lockers or cabinets must be reported to supervisor.</hazard-desc>
+				</hazard>
+			</safety>
+			<step>
+				<para reuse="all">Unlock and open locker L1 access door using NJ Transit coach key.</para>
+			</step>
+			<step>
+				<para reuse="all">Remove electronics rack shield/cover.</para>
+			</step>
+			<safety reuse="all">
+				<hazard level="warning" symbol="electrical">
+					<hazard-desc>Cables connected to locker equipment can cause electrical shock. Exercise care whenever accessing any of the electrical lockers. Failure to do so may result in injury or death.</hazard-desc>
+				</hazard>
+			</safety>
+			<safety reuse="all">
+				<hazard level="warning" symbol="electrical">
+					<hazard-desc>The following steps are performed while some locker equipment may be powered. Exercise care whenever near powered equipment. Failure to do so may result in injury or death.</hazard-desc>
+				</hazard>
+			</safety>
+			<step>
+				<para reuse="all">Remove six car wiring cables (<ref-container><label>9</label><graphic-ref ref-id="CBBHFBDG" callout="9"></graphic-ref></ref-container>) connected to circular connectors of Communication Control Unit (CCU) unit (<ref-container><label>1</label><graphic-ref ref-id="CBBHFBDG" callout="1"></graphic-ref></ref-container>). </para>
+			</step>
+			<step>
+				<para reuse="all">Remove one nut (<ref-container><label>5</label><graphic-ref ref-id="CBBHFBDG" callout="5"></graphic-ref></ref-container>) one lockwasher (<ref-container><label>7</label><graphic-ref ref-id="CBBHFBDG" callout="7"></graphic-ref></ref-container>),
+					and one washer  (<ref-container><label>8</label><graphic-ref ref-id="CBBHFBDG" callout="8"></graphic-ref></ref-container>) securing ground wire terminal to CCU ground stud. Discard lockwasher.
+				</para>
+			</step>
+			<step>
+				<safety reuse="all">
+					<hazard level="warning" symbol="warning1">
+						<hazard-desc>Communication Control Unit weighs close to 50 lb. Use appropriate lifting device or table to support Communication ControlUnit. Failure to do so may result in Injury or damage to equipment.</hazard-desc>
+					</hazard>
+				</safety>
+				<para reuse="all">Remove four capscrews (<ref-container><label>4</label><graphic-ref ref-id="CBBHFBDG" callout="4"></graphic-ref></ref-container>), four lockwashers (<ref-container><label>5</label><graphic-ref ref-id="CBBHFBDG" callout="5"></graphic-ref></ref-container>), four
+					washers (<ref-container><label>3</label><graphic-ref ref-id="CBBHFBDG" callout="3"></graphic-ref></ref-container>), and four U-type spring nuts (<ref-container><label>2</label><graphic-ref ref-id="CBBHFBDG" callout="2"></graphic-ref></ref-container>)
+					securing CCU to locker structure. Discard lockwashers (<ref-container><label>5</label><graphic-ref ref-id="CBBHFBDG" callout="5"></graphic-ref></ref-container>).
+				</para>
+			</step>
+			<step>
+				<para reuse="all">Remove U-type spring nuts (<ref-container><label>2</label><graphic-ref ref-id="CBBHFBDG" callout="2"></graphic-ref></ref-container>) from locker structure.</para>
+			</step>
+			<step>
+				<para reuse="all">Using grab handles, slide CCU out of locker L1 and set aside.</para>
+			</step>
+		</activity>
+		<activity>
+			<title id="ID20065181313347024">Install Communication Control Unit</title>
+			<step>
+				<para reuse="all">Position U-type spring nuts (<ref-container><label>2</label><graphic-ref ref-id="CBBHFBDG" callout="2"></graphic-ref></ref-container>) on locker L1 structure, aligning with mounting holes.</para>
+			</step>
+			<step>
+				<safety reuse="all">
+					<hazard level="warning" symbol="warning1">
+						<hazard-desc>Communication Control Unit weighs close to 50 lb. Use appropriate lifting device or table to support Communication Control Unit. Failure to do so may result in Injury or damage to equipment.</hazard-desc>
+					</hazard>
+				</safety>
+				<para reuse="all">Using grab handles, lift CCU and carefully position in locker L1. Align CCU mounting notches with spring nuts (<ref-container><label>2</label><graphic-ref ref-id="CBBHFBDG" callout="2"></graphic-ref></ref-container>) installed on locker L1.</para>
+			</step>
+			<step>
+				<para reuse="all">Secure CCU to four U-type spring nuts (<ref-container><label>2</label><graphic-ref ref-id="CBBHFBDG" callout="2"></graphic-ref></ref-container>) installed on locker structure with four capscrews (<ref-container><label>4</label><graphic-ref ref-id="CBBHFBDG" callout="4"></graphic-ref></ref-container>), four new lockwashers (<ref-container><label>5</label><graphic-ref ref-id="CBBHFBDG" callout="5"></graphic-ref></ref-container>), and washers (<ref-container><label>3</label><graphic-ref ref-id="CBBHFBDG" callout="3"></graphic-ref></ref-container>) </para>
+			</step>
+			<step>
+				<para reuse="all">Torque four capscrews (<ref-container><label>4</label><graphic-ref ref-id="CBBHFBDG" callout="4"></graphic-ref></ref-container>) to 6 ft-lb and mark with Torque-Seal.</para>
+			</step>
+			<step>
+				<para reuse="all">Inspect area on CCU front panel around ground stud for rust, grime, grease, or oil. If required, clean ground wire terminal mounting area around ground stud as follows.</para>
+				<step>
+					<para reuse="all">Using brush, remove dirt or paint from  area surrounding ground stud. </para>
+				</step>
+				<step>
+					<para reuse="all">Using cloth soaked with mineral spirits, remove any oily or greasy deposits from area surrounding ground stud. </para>
+				</step>
+			</step>
+			<step>
+				<para reuse="all">Secure ground wire terminal (<ref-container><label>8</label><graphic-ref ref-id="CBBHFBDG" callout="8"></graphic-ref></ref-container>) to ground stud on CCU front panel with one nut (<ref-container><label>6</label><graphic-ref ref-id="CBBHFBDG" callout="6"></graphic-ref></ref-container>) and washer (<ref-container><label>7</label><graphic-ref ref-id="CBBHFBDG" callout="7"></graphic-ref></ref-container>).</para>
+			</step>
+		</activity>
+		<activity>
+			<title id="ID200651813133415924">Perform CCU Power-up Test</title>
+			<step>
+				<para reuse="all">Restore power to CCU:</para>
+				<list type="enumerated" reuse="all">
+					<list-item>
+						<para reuse="all">Switch circuit breaker <verbatim>DOOR CONTROL CB33</verbatim> to ON.</para>
+					</list-item>
+					<list-item>
+						<para reuse="all">Switch circuit breaker <verbatim>PA AMPLIFIER CB47</verbatim> to ON.</para>
+					</list-item>
+					<list-item>
+						<para reuse="all">Switch circuit breaker <verbatim>COMMUNICATION SYSTEM CB48</verbatim> to ON. </para>
+					</list-item>
+				</list>
+			</step>
+			<step>
+				<para reuse="all">From car locker L1, ensure CCU toggle switch <verbatim>POWER</verbatim> is set to position <verbatim>ON</verbatim>. </para>
+			</step>
+			<step>
+				<para reuse="all">Allow CCU to power-up self-test and initialize, then ensure LED indicators on CCU front panel are as follows: </para>
+				<list type="bulleted" reuse="all">
+				<list-item>
+					<para reuse="all"><verbatim>LVDN OK</verbatim> is on (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all"><verbatim>LVDN LOW</verbatim> is off. </para>
+				</list-item>
+				<list-item>
+					<para reuse="all"><verbatim>CCU POWER</verbatim> is on (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all"><verbatim>CCU HEALTH</verbatim> is on (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all"><verbatim>CCU FAULT</verbatim> is off. </para>
+				</list-item>
+				</list>
+			</step>
+			<step>
+				<para reuse="all">Replace electronics rack shield/cover.</para>
+			</step>
+			<step>
+				<para reuse="all">Close and lock locker L1 access door using NJ Transit coach key.</para>
+			</step>
+			<step>
+				<para reuse="all">Activate cab by setting train operator console controls as follows.</para>
+				<step>
+					<para reuse="all">Master Controller keyed</para>
+				</step>
+				<step>
+					<para reuse="all">Master Controller Reverser set to <verbatim>F</verbatim> (Forward) to activate cab</para>
+				</step>
+				<step>
+					<para reuse="all">Master Controller Throttle switch set to <verbatim>0</verbatim> (Idle).</para>
+				</step>
+			</step>
+			<step>
+				<para reuse="all">In active cab, verify CCU status on Driver DIsplay Unit (DDU) as follows.</para>
+				<illustration reuse="all">
+					<graphic file="..\..\Graphics\053J-000-001.gif" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+					<title id="ID200651813133450924">DDU Train Overview Screen</title>
+				</illustration>
+				<step>
+					<para reuse="all">From DDU <verbatim>Train Overview</verbatim> screen, click <verbatim>Local Process Data</verbatim> softkey button.</para>
+				</step>
+				<illustration reuse="all">
+					<graphic file="..\..\Graphics\053J-000-002.gif" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+					<title id="ID200651813133491324">Typical DDU Process Data Screen</title>
+				</illustration>
+				<step>
+					<para reuse="all">From DDU Process Data screen for vehicle, ensure field <verbatim>CCU</verbatim> displays <verbatim>OK</verbatim>. </para>
+				</step>
+			</step>
+		</activity>
+		<follow-on-tasks>
+			<para reuse="all">None</para>
+		</follow-on-tasks>
+	</task>
+</ib>

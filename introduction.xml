@@ -8,12 +8,14 @@
 inspection to determine if a malfunction is being caused by some
 obvious defect such as a damaged component, defective wiring, etc.
 Otherwise, fault isolation should follow a logical sequence designed
-to isolate a malfunction to a single component.</para>
+to isolate a malfunction to a single component.
+			</para>
 			<safety>
 				<hazard level="notification" symbol="warning1">
 					<hazard-desc>Before deciding that a system/subsystem is malfunctioning,
 check that all related circuit breakers, switches, control devices,
-and valves are set properly for normal operation.</hazard-desc>
+and valves are set properly for normal operation.
+					</hazard-desc>
 				</hazard>
 			</safety>
 			<para>The fault isolation chart lists the symptoms most likely to
@@ -29,7 +31,8 @@ a corrective action. Both Inspect/Check and Corrective Action columns, when
 applicable, refer to a task or document containing information that
 could be of use to the reader. If a troubleshooting task is complex,
 involves special tools, or requires illustration for understanding,
-a TS task, to be found in the Maintenance Procedures, is referenced.</para>
+a TS task, to be found in the Maintenance Procedures, is referenced.
+			</para>
 		</topic>
 	</integration-paragraph>
 </ib>

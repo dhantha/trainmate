@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt-->
+<ib miid="BOM01312" doc-type="TASK" maint-item-desc="Cab Communication Control Panel" part-number="05384180011S" task-code="A" doc-name="BOM01312_TASK_A" doc-title="Cab Communication Control Panel Inspection (daily)" lock-counter="12" search-index="mim-sys9-mp" show-e-list="yes" e-list-number="09 01 01" giid-maint-item-desc="Cab Communication Control Panel" id-document="26681" id-document-version="342761" doc-version="1" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name="CCCP">
+<task maintenance-level="" craft="" training-required="False" ref-task-no="" safety-hazard="False" personal-safety-equip="False" undocumented="False" service-interval="" interval-unit="DAYS" estimated-time="" task-use-on-code="" safety-related-task="False">
+	<pre-task>
+		<applicable-cars>C Car</applicable-cars>
+		<equipment-conditions>
+			<list type="enumerated" reuse="all">
+				<list-item>
+					<para reuse="all">Wheels chocked.</para>
+				</list-item>
+			</list>
+		</equipment-conditions>
+		<ref-docs>
+			<title>Replace Cab Communication Control Panel – 09 01 01 H</title>
+		</ref-docs>
+		<maint-equipment reuse="all">
+			<special-tools>
+				<equipment-item>
+					<title id="ID2008109165838381">Walkie Talkie</title>
+				</equipment-item>
+				<equipment-item>
+					<title id="ID2008109165838491">Hand-held Wayside Radio</title>
+				</equipment-item>
+				<equipment-item>
+					<title id="ID2008109165838621">NJ Transit Coach Key</title>
+				</equipment-item>
+			</special-tools>
+		</maint-equipment>
+	</pre-task>
+	<activity>
+		<title id="ID2008109165838771">Inspect Cab Communication Control Panel</title>
+		<safety reuse="all">
+			<hazard level="notification" symbol="warning1">
+				<hazard-desc>This inspection procedure also covers Communication Control Panels, Passenger Emergency Intercoms, loudspeakers, destination signs, and VHF radio unit. </hazard-desc>
+			</hazard>
+		</safety>
+		<safety reuse="all">
+			<hazard level="notification" symbol="note">
+				<hazard-desc>If the inspection determines that corrective maintenance is required, report it to your supervisor to ensure that proper corrective action is taken.</hazard-desc>
+			</hazard>
+		</safety>
+		<illustration reuse="all">
+			<graphic file="..\..\Graphics\CGM\053J-732-007.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+			<title id="CHDHHACE">CCCP Inspection</title>
+		</illustration>
+		<step>
+			<para reuse="all">Visually inspect Cab Communication Control Panel (CCCP) (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) for damage, loose mounting hardware, or stuck pushbuttons. Tighten
+				loose hardware. If damaged, replace unit (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>).
+				Refer to <task-ref-group><task-ref-number e-list-number="09 01 01" giid-maint-item-desc="Cab Communication Control Panel" user-defined-1="" user-defined-2="" user-defined-3="" maint-item-desc="Cab Communication Control Panel"><miid>BOM01312</miid><task-code>H</task-code></task-ref-number></task-ref-group>.
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Before proceeding with remaining activities, activate cab by setting train operator console controls as follows.</para>
+			<step>
+				<para reuse="all">Master Controller keyed</para>
+			</step>
+			<step>
+				<para reuse="all">Master Controller Reverser set to <verbatim>F</verbatim> (Forward) to activate cab</para>
+			</step>
+			<step>
+				<para reuse="all">Master Controller Throttle switch set to <verbatim>0</verbatim> (Idle).</para>
+			</step>
+		</step>
+	</activity>
+	<activity>	
+		<title id="ID20081091658381191">Verify Equipment Status on Driver Display Unit</title>
+		<illustration reuse="all">
+			<graphic file="..\..\Graphics\053J-000-001.gif" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+			<title id="ID20081091658382211">DDU Train Overview Screen</title>
+		</illustration>
+		<step>
+			<para reuse="all">From Driver Display Unit (DDU), check that no car on train shows failures related to communications or destination signs, proceeding as follows. </para>
+		</step>
+		<step>
+			<step>	
+				<para reuse="all">From DDU <verbatim>Train Overview</verbatim> screen, click <verbatim>Train Process Data</verbatim> softkey button to display vehicle softkey group. </para>
+			</step>
+			<step>
+				<para reuse="all">Click <verbatim>Process Data Veh. #</verbatim> softkey button for vehicle No. of the cab car being maintained to display Process Data Screen. </para>
+			</step>
+			<illustration reuse="all">
+				<graphic file="..\..\Graphics\053J-000-002.gif" cropped="0" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic>
+				<title id="ID20081091658383391">DDU Process Data Screen (Typical)</title>
+			</illustration>
+			<step>
+				<para reuse="all">From DDU Process Data screen for current vehicle, ensure none of following fields display <verbatim>FAILED</verbatim>: </para>
+				<list type="bulleted" reuse="all">
+					<list-item>
+						<para reuse="all"><verbatim>FDS</verbatim> (C Car only)</para>
+					</list-item>
+					<list-item>
+						<para reuse="all"><verbatim>SDS1</verbatim> and <verbatim>SDS2</verbatim></para>
+					</list-item>
+					<list-item>
+						<para reuse="all"><verbatim>IMS1</verbatim> to <verbatim>IMS6</verbatim></para>
+					</list-item>
+					<list-item>
+						<para reuse="all"><verbatim>CCCP</verbatim> (C Car only)</para>
+					</list-item>
+					<list-item>
+						<para reuse="all"><verbatim>CCU</verbatim></para>
+					</list-item>
+					<list-item>
+						<para reuse="all"><verbatim>PEI</verbatim></para>
+					</list-item>
+					<list-item>
+						<para reuse="all"><verbatim>CCP1</verbatim> to <verbatim>CCP3</verbatim></para>
+					</list-item>
+					<list-item>
+						<para reuse="all">Data Car Network (DCN).</para>
+					</list-item>
+				</list>
+			</step>
+			<step>
+				<para reuse="all">Repeat equipment status verification for each car on train.</para>
+			</step>
+		</step>
+	</activity>
+	<activity>
+		<title id="ID20081091658384051">Verify Destination Signs</title>
+		<step>
+			<para reuse="all">Walk down train and ensure destination signs are as follows: </para>
+			<list type="bulleted" reuse="all">
+				<list-item>
+					<para reuse="all">On all cars, Side Destination Signs SDS1 and SDS2 are displaying string “NJ TRANSIT”. </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">On all cars, Interior Message Signs IMS1 to IMS6 are displaying string “NJ TRANSIT”. </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">On C Cars, Front Destination Sign FDS is displaying string “NJT”. </para>
+				</list-item>
+			</list>
+		</step>
+	</activity>
+	<activity>
+		<title id="ID20081091658385051">Verify Communication Control Panels</title>
+		<safety reuse="all">
+			<hazard level="notification" symbol="warning1">
+				<hazard-desc>Some of the following steps require additional personnel on train and mobile communication equipment (walkie-talkie).</hazard-desc>
+			</hazard>
+		</safety>
+		<step>
+			<para reuse="all">From cab, ensure NJ Transit standard coach key is not present in Master Door Control Panel MDCP1 <verbatim>COMMUNICATIONS</verbatim> key switch so that MDCP1 is not activated.</para>
+		</step>
+		<step>
+			<para reuse="all">Ensure Master Controller Reverser is set to <verbatim>I</verbatim> (Isolate) to deactivate cab.</para>
+		</step>
+		<step>
+			<para reuse="all">Verify Communication Control Panel CCP1 operation as follows.</para>
+			<step>
+				<para reuse="all">Verify Public Address (PA) operation mode as follows.</para>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn cab Communication Control Panel CCP1 rotary selector switch to position <verbatim>PA</verbatim>. </para>
+				</step>
+				<step>
+					<para reuse="all">Press and hold CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP1 microphone audio is heard and clearly understood over all train interior and exterior loudspeakers, except for A-end vestibule speakers SPK1 and SPK2. </para>
+				</step>
+				<step>
+					<para reuse="all">Release CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP1 microphone audio is no longer heard over train loudspeakers. </para>
+				</step>
+				<step>
+					<para reuse="all">Pressing and holding CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton depressed while speaking near CCP1 microphone grill array, turn CCP1 rotary selector switch to position <verbatim>OFF</verbatim>. Ensure CCP1 microphone audio is no longer heard over train loudspeakers. </para>
+				</step>
+				<step>
+					<para reuse="all">Release CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton.</para>
+				</step>
+			</step>
+			<step>
+				<para reuse="all">Verify Intercom (IC) operation mode as follows.</para>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn CCP1 rotary selector switch to position <verbatim>IC</verbatim>. </para>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn rotary selector switch to position <verbatim>IC</verbatim> on another train CCP.</para>
+				</step>
+				<step>
+					<para reuse="all">Press and hold CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP1 microphone audio is heard and clearly understood on other CCP speaker. </para>
+				</step>
+				<step>
+					<para reuse="all">Release CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP1 microphone audio is no longer heard on other CCP. </para>
+				</step>
+				<step>
+					<para reuse="all">Press and hold other CCP <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near that CCP microphone grill array. Ensure other CCP microphone audio is heard and clearly understood on CCP1. </para>
+				</step>
+				<step>
+					<para reuse="all">Release other CCP <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near that CCP microphone grill array. Ensure other CCP microphone audio is no longer heard on CCP1. </para>
+				</step>
+				<step>
+					<para reuse="all">Pressing and holding CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton depressed while speaking near CCP1 microphone grill array, turn CCP1 rotary selector switch to any position except <verbatim>IC</verbatim>. Ensure CCP1 microphone audio is no longer transmitted to other CCP. </para>
+				</step>
+				<step>
+					<para reuse="all">Release CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton.</para>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn CCP1 rotary selector switch to position <verbatim>OFF</verbatim>. </para>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn other CCP rotary selector switch to position <verbatim>OFF</verbatim>. </para>
+				</step>
+			</step>
+			<step>
+				<para reuse="all">Repeat CCP verification for each CCP on train. </para>
+			</step>
+			</step>
+			<step>
+				<para reuse="all">Verify Passenger Emergency Intercom PEI operation as follows.</para>
+				<step>
+					<para reuse="all">Momentarily press PEI1 <verbatim>PUSH TO CALL</verbatim> pushbutton and verify the following:</para>
+					<list type="bulleted" reuse="all">
+						<list-item>
+							<para reuse="all">PEI1 activity LED indicator blinks (green). </para>
+						</list-item>
+						<list-item>
+							<para reuse="all">CCP1 <verbatim>PEI ACTIVATED</verbatim> LED indicator blinks (green). </para>
+						</list-item>
+						<list-item>
+							<para reuse="all">PEI chime is played over all train interior speakers for 2 seconds. </para>
+						 </list-item>
+						 <list-item>
+							<para reuse="all">All train Interior Message Signs IMS1 to IMS6 display the PEI call message for 2 minutes. </para>
+						</list-item>
+					</list>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn CCP1 rotary selector switch to position <verbatim>PEI</verbatim>. Ensure CCP1 <verbatim>PEI ACTIVATED</verbatim> LED indicator is ON (green) and PEI activity LED indicator is ON (green). </para>
+				</step>
+				<step>
+					<para reuse="all">Press and hold CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP1 microphone audio is heard and clearly understood over PEI1 speaker. </para>
+				</step>
+				<step>
+					<para reuse="all">Release CCP1 <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP1 microphone audio is no longer heard on PEI1. </para>
+				</step>
+				<step>
+					<para reuse="all">Speak near PEI1 microphone grill. Ensure PEI1 microphone audio is heard and clearly understood over CCP1 speaker. </para>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn CCP1 rotary selector switch to position <verbatim>IC</verbatim> or <verbatim>PA</verbatim> to place PEI call on hold. Ensure CCP1 <verbatim>PEI ACTIVATED</verbatim> LED indicator is ON (yellow) and PEI activity LED indicator is ON (yellow). </para>
+				</step>
+				<step>
+					<para reuse="all">Speak near PEI1 microphone grill. Ensure PEI1 microphone audio is not heard on CCP1. </para>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn CCP1 rotary selector switch to position <verbatim>PEI</verbatim>. Ensure CCP1 <verbatim>PEI ACTIVATED</verbatim> LED indicator is ON (green) and PEI activity LED indicator is ON (green). </para>
+				</step>
+				<step>
+					<para reuse="all">Speak near PEI1 microphone grill. Ensure PEI1 microphone audio is heard on CCP1. </para>
+				</step>
+				<step>
+					<para reuse="all">Using NJ Transit standard coach key, turn CCP1 rotary selector switch to position <verbatim>OFF</verbatim> to cancel PEI call. Ensure CCP1 <verbatim>PEI ACTIVATED</verbatim> LED indicator is OFF and PEI activity LED indicator is OFF. </para>
+				</step>
+				<step>
+					<para reuse="all">Speak near PEI1 microphone grill. Ensure PEI1 microphone audio is not heard on CCP1. </para>
+				</step>
+				<step>
+					<para reuse="all">Repeat PEI operation verification against each CCP2 and CCP3 on train. </para>
+				</step>
+				<step>
+					<para reuse="all">Repeat PEI operation verification against any one CCP on train for each PEI on train. Also exercise External Push-to-call (EPTC) pushbutton associated with each PEI5 in. C Cars and S Cars. </para>
+				</step>
+			</step>
+	</activity>
+	<activity>
+		<title id="ID20081091658386161">Verify Cab Communication Control Panel</title>
+		<safety reuse="all">
+			<hazard level="notification" symbol="warning1">
+				<hazard-desc>Some of the following steps require additional personnel on train and mobile communication equipment (walkie-talkie).</hazard-desc>
+			</hazard>
+		</safety>
+		<step>
+			<para reuse="all">Ensure Master Controller Reverser is set to <verbatim>I</verbatim> (Isolate) to deactivate cab.</para>
+		</step>
+		<step>
+			<para reuse="all">Using NJ Transit standard coach key in Master Door Control Panel MDCP1 <verbatim>COMMUNICATIONS</verbatim> key switch, activate MDCP1. Ensure Cab Communication Control Panel CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) and VHF Train Radio are powered up. </para>
+		</step>
+		<step>
+			<para reuse="all">Press CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) pushbutton <verbatim>PA</verbatim> (<ref-container><label>3</label><graphic-ref ref-id="CHDHHACE" callout="3"></graphic-ref></ref-container>).
+				Observe that CCCP status LED <verbatim>PA</verbatim> (<ref-container><label>3</label><graphic-ref ref-id="CHDHHACE" callout="3"></graphic-ref></ref-container>)is ON (green). 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">While holding CCCP pushbutton <verbatim>PA</verbatim> (<ref-container><label>3</label><graphic-ref ref-id="CHDHHACE" callout="3"></graphic-ref></ref-container>)
+				depressed, speak near CCCP microphone grill array. Ensure that CCCP
+				status LED <verbatim>PA</verbatim> (<ref-container><label>3</label><graphic-ref ref-id="CHDHHACE" callout="3"></graphic-ref></ref-container>)
+				remains ON and that CCCP microphone audio is heard and clearly understood over all train interior and exterior loudspeakers, except for A-end vestibule speakers SPK1. 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Release CCCP pushbutton <verbatim>PA</verbatim> (<ref-container><label>3</label><graphic-ref ref-id="CHDHHACE" callout="3"></graphic-ref></ref-container>) and speak near CCCP microphone grill array. Ensure CCCP microphone
+				audio is no longer heard over train loudspeakers. 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Using NJ Transit standard coach key, turn rotary selector switch on CCP2 or CCP3 to position <verbatim>IC</verbatim>. </para>
+		</step>
+		<step>
+			<para reuse="all">Press and hold activated CCP <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near microphone grill array. Ensure activated CCP microphone audio is heard and clearly understood over cab CCP1 speaker. </para>
+		</step>
+		<step>
+			<para reuse="all">Release activated CCP <verbatim>PUSH TO TALK</verbatim> pushbutton and speak near CCP1 microphone grill array. Ensure CCP microphone audio is no longer heard on cab CCP1. </para>
+		</step>
+		<step>
+			<para reuse="all">Press and hold CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) pushbutton <verbatim>IC</verbatim> (<ref-container><label>5</label><graphic-ref ref-id="CHDHHACE" callout="5"></graphic-ref></ref-container>) and speak near CCCP microphone grill array. Observe that CCCP status
+				LED <verbatim>IC</verbatim> (<ref-container><label>5</label><graphic-ref ref-id="CHDHHACE" callout="5"></graphic-ref></ref-container>)
+				is ON (green) and that CCCP microphone audio is heard and clearly
+				understood over activated CCP speaker. 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Release CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) pushbutton <verbatim>IC</verbatim> (<ref-container><label>5</label><graphic-ref ref-id="CHDHHACE" callout="5"></graphic-ref></ref-container>)
+				and continue speaking near CCCP microphone grill array. Observe
+				that CCCP status LED <verbatim>IC</verbatim> (<ref-container><label>5</label><graphic-ref ref-id="CHDHHACE" callout="5"></graphic-ref></ref-container>)
+				is OFF and that CCCP microphone audio is no longer transmitted to
+				activated CCP speaker. 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Using NJ Transit standard coach key, deactivate CCP by turning rotary selector switch to position <verbatim>OFF</verbatim>. </para>
+		</step>
+		<step>
+			<para reuse="all">On any PEI, momentarily press <verbatim>PUSH TO TALK</verbatim> pushbutton and verify the following:</para>
+			<list type="bulleted" reuse="all">
+				<list-item>
+					<para reuse="all">Activated PEI activity LED indicator blinks (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>) blinks (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">PEI chime is played over all train interior speakers for 2 seconds. </para>
+				</list-item>
+			</list>
+		</step>
+		<step>
+			<para reuse="all">On CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>), momentarily press <verbatim>PEI</verbatim> pushbutton (<ref-container><label>4</label><graphic-ref ref-id="CHDHHACE" callout="4"></graphic-ref></ref-container>). Verify that observed PEI activity LED indicator is ON (green) and that CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI
+				CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>)
+				is ON (green). 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Press and hold CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI</verbatim> pushbutton (<ref-container><label>4</label><graphic-ref ref-id="CHDHHACE" callout="4"></graphic-ref></ref-container>)
+				and speak near CCCP microphone grill array. Verify the following: 
+			</para>
+			<list type="bulleted" reuse="all">
+				<list-item>
+					<para reuse="all">CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI
+						CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>) remains
+						ON (green). 
+					</para>
+				</list-item>
+				<list-item>
+					<para reuse="all">CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI</verbatim> LED indicator (<ref-container><label>4</label><graphic-ref ref-id="CHDHHACE" callout="4"></graphic-ref></ref-container>) is ON (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">CCCP microphone audio is heard and clearly understood over activated PEI speaker. </para>
+				</list-item>
+			</list>
+		</step>
+		<step>
+			<para reuse="all">Release CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI</verbatim> pushbutton (<ref-container><label>4</label><graphic-ref ref-id="CHDHHACE" callout="4"></graphic-ref></ref-container>) and continue speaking near CCCP microphone grill array. Verify the following: </para>
+			<list type="bulleted" reuse="all">
+				<list-item>
+					<para reuse="all">CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>) remains ON (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI</verbatim> LED indicator (<ref-container><label>4</label><graphic-ref ref-id="CHDHHACE" callout="4"></graphic-ref></ref-container>) is OFF. </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">CCCP microphone audio is no longer heard on activated PEI speaker </para>
+				</list-item>
+			</list>
+		</step>
+		<step>
+			<para reuse="all">On activated PEI, speak near microphone grill. Verify the following:</para>
+			<list type="bulleted" reuse="all">
+				<list-item>
+					<para reuse="all">CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>) remains ON (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">Activated PEI activity LED indicator is ON (green). </para>
+				</list-item>
+				<list-item>
+					<para reuse="all">Activated PEI microphone audio is heard and clearly understood over cab CCP1 speaker. </para>
+				</list-item>
+			</list>
+		</step>
+		<step>
+			<para reuse="all">On CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>), momentarily press <verbatim>ICI</verbatim> pushbutton (<ref-container><label>5</label><graphic-ref ref-id="CHDHHACE" callout="5"></graphic-ref></ref-container>). Verify
+				that activated PEI activity LED indicator is ON (yellow) and that CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI
+				CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>) is ON (yellow). 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">On activated PEI, speak near microphone grill. Verify that Activated PEI microphone audio is not transmitted to cab CCP1 speaker. </para>
+		</step>
+		<step>
+			<para reuse="all">On CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>), momentarily press <verbatim>PEI</verbatim> pushbutton (<ref-container><label>4</label><graphic-ref ref-id="CHDHHACE" callout="4"></graphic-ref></ref-container>). Verify
+				that activated PEI activity LED indicator is ON (green) and that CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI
+				CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>)
+				is ON (green). 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">On activated PEI, speak near microphone grill. Verify that PEI microphone audio is heard and clearly understood over cab CCP1 speaker. </para>
+		</step>
+		<step>
+			<para reuse="all">On CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>), momentarily press <verbatim>PEI CANCEL</verbatim> pushbutton (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>). Verify
+				that activated PEI activity LED indicator is OFF and that CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) <verbatim>PEI
+				CANCEL</verbatim> LED indicator (<ref-container><label>6</label><graphic-ref ref-id="CHDHHACE" callout="6"></graphic-ref></ref-container>)
+				is OFF. 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">On activated PEI, speak near microphone grill. Verify that activated PEI microphone audio is not transmitted to cab CCP1 speaker. </para>
+		</step>
+	</activity>
+	<activity>
+		<title id="ID20081091658388431">Verify Radio Operation</title>
+		<safety reuse="all">
+			<hazard level="notification" symbol="warning1">
+				<hazard-desc>The following activity requires a hand-held wayside radio.</hazard-desc>
+			</hazard>
+		</safety>
+		<step>
+			<para reuse="all">Set hand-held wayside radio to channel 1 (161.400 MHz).</para>
+		</step>
+		<step>
+			<para reuse="all">On CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>), turn <verbatim>CHANNEL</verbatim> rotary selector (<ref-container><label>8</label><graphic-ref ref-id="CHDHHACE" callout="8"></graphic-ref></ref-container>)
+				to channel 1, as seen on <verbatim>CHANNEL</verbatim> LED display (<ref-container><label>9</label><graphic-ref ref-id="CHDHHACE" callout="9"></graphic-ref></ref-container>).
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Press and hold CCCP <verbatim>RADIO</verbatim> pushbutton (<ref-container><label>2</label><graphic-ref ref-id="CHDHHACE" callout="2"></graphic-ref></ref-container>)
+				to channel 1, as seen on <verbatim>CHANNEL</verbatim> LED display (<ref-container><label>9</label><graphic-ref ref-id="CHDHHACE" callout="9"></graphic-ref></ref-container>),
+				while speaking near CCCP microphone grill array. Verify that CCCP <verbatim>RADIO</verbatim> LED indicator (<ref-container><label>2</label><graphic-ref ref-id="CHDHHACE" callout="2"></graphic-ref></ref-container>)
+				is ON (green) and CCCP microphone audio is heard and clearly understood
+				over hand-held wayside radio. 
+			</para>
+		</step>
+		<step>
+			<para reuse="all">Using hand-held wayside radio, transmit message over channel 1. Verify that hand-held radio message audio is heard and clearly understood over hand-held wayside radio CCCP (<ref-container><label>1</label><graphic-ref ref-id="CHDHHACE" callout="1"></graphic-ref></ref-container>) speaker. </para>
+		</step>
+		<step>
+			<para reuse="all">Repeat radio operation verification for channels 2 to 10. </para>
+		</step>
+	</activity>
+	<follow-on-tasks>
+		<para reuse="all">None</para>
+	</follow-on-tasks>
+</task>
+</ib>

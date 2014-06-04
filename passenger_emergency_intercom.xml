@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="\\Ameras0036\Data\BIEM_PRODUCTION_AMERICA\053_NJT\Application\p-xml\XSL\053_NJT_ib.xslt" type="text/xsl"?><!--thru 053_NJT_p-iem_IB.xslt--><ib miid="BOM01285" doc-type="TASK" maint-item-desc="Passenger Emergency Intercom" part-number="05384090031S" task-code="C" doc-name="BOM01285_TASK_C" doc-title="PEI Test (Periodic)" lock-counter="21" search-index="mim-sys9-mp" show-e-list="yes" e-list-number="09 01 03" giid-maint-item-desc="Passenger Emergency Intercom" id-document="21419" id-document-version="342754" doc-version="2" pmt-version="14" gmt-version="12" user-defined-1="" user-defined-2="" user-defined-3="" oem-part-no="" device-name="PEI"><task maintenance-level="" craft="" training-required="False" ref-task-no="" safety-hazard="False" personal-safety-equip="False" undocumented="False" service-interval="184" interval-unit="DAYS" estimated-time="0" task-use-on-code="CST" safety-related-task="False"><pre-task><applicable-cars>C Car, S Car, T Car</applicable-cars><equipment-conditions><list type="enumerated" reuse="all"><list-item><para reuse="all">Wheels
+chocked.</para></list-item></list></equipment-conditions><ref-docs><title>None.</title></ref-docs><maint-equipment reuse="all"><special-tools><equipment-item><title id="ID20082282152363617">NJ Transit Coach Key</title></equipment-item></special-tools></maint-equipment></pre-task><activity><title id="ID20082282152364717">Test Passenger Emergency
+Intercom (Periodic)</title><safety reuse="all"><hazard level="notification" symbol="note"><hazard-desc>If the test determines that corrective maintenance
+is required, report it to your supervisor to ensure that proper
+corrective action is taken.</hazard-desc></hazard></safety><illustration reuse="all"><graphic file="..\..\Graphics\CGM\053J-751-022.cgm" cropped="1" float="0" height="5.70in" impsize="9.00in 5.70in"></graphic><title id="ID20082282152366017">PEI Panel Test</title></illustration><safety reuse="all"><hazard level="notification" symbol="warning1"><hazard-desc>Some of the following steps require additional personnel
+on train.</hazard-desc></hazard></safety><step><para reuse="all">From cab, ensure NJ Transit standard coach
+key is not present in Master Door Control Panel MDCP1 <verbatim>COMMUNICATIONS</verbatim> key
+switch so that MDCP1 is not activated.</para></step><step><para reuse="all">Ensure Master Controller Reverser is set
+to <verbatim>I</verbatim> (Isolate) to deactivate cab.</para></step><step><para reuse="all">Using NJ Transit standard coach key, turn
+any one cab Communication Control Panel (CCP) rotary selector switch
+to position <verbatim>PA</verbatim>. </para></step><step><para reuse="all">Momentarily press PEI panel (<ref-container><label>1</label><graphic-ref ref-id="CHDCGAEB" callout="1"></graphic-ref></ref-container>) <verbatim>PUSH
+TO CALL</verbatim> pushbutton (<ref-container><label>2</label><graphic-ref ref-id="CHDCGAEB" callout="2"></graphic-ref></ref-container>)
+and verify the following:</para><list type="bulleted" reuse="all"><list-item><para reuse="all">PEI
+activity LED indicator (<ref-container><label>3</label><graphic-ref ref-id="CHDCGAEB" callout="3"></graphic-ref></ref-container>) blinks
+(green). </para></list-item><list-item><para reuse="all">Activated CCP <verbatim>PEI ACTIVATED</verbatim> LED
+indicator blinks (green). </para></list-item><list-item><para reuse="all">PEI chime is played over all train
+interior speakers for 2 seconds. </para></list-item><list-item><para reuse="all">All train Interior Message Signs
+IMS1 to IMS6 display the PEI call message for 2 minutes. </para></list-item></list></step><step><para reuse="all">Using NJ Transit standard coach key, turn
+activated CCP rotary selector switch to position <verbatim>PEI</verbatim>.
+Ensure CCP <verbatim>PEI ACTIVATED</verbatim> LED indicator is ON
+(green) and PEI activity LED indicator (<ref-container><label>3</label><graphic-ref ref-id="CHDCGAEB" callout="3"></graphic-ref></ref-container>)
+is ON (green). </para></step><step><para reuse="all">Press and hold Activated CCP <verbatim>PUSH
+TO TALK</verbatim> pushbutton and speak near CCP microphone grill
+array. Ensure CCP microphone audio is heard and clearly understood over
+PEI speaker (<ref-container><label>4</label><graphic-ref ref-id="CHDCGAEB" callout="4"></graphic-ref></ref-container>). </para></step><step><para reuse="all">Release Activated CCP <verbatim>PUSH TO
+TALK</verbatim> pushbutton and speak near CCP microphone grill array.
+Ensure CCP microphone audio is no longer heard on PEI speaker (<ref-container><label>4</label><graphic-ref ref-id="CHDCGAEB" callout="4"></graphic-ref></ref-container>). </para></step><step><para reuse="all">Speak near PEI microphone grill (<ref-container><label>4</label><graphic-ref ref-id="CHDCGAEB" callout="4"></graphic-ref></ref-container>).
+Ensure PEI microphone audio is heard and clearly understood over
+activated CCP speaker. </para></step><step><para reuse="all">Using NJ Transit standard coach key, turn
+activated CCP rotary selector switch to position <verbatim>IC</verbatim> or <verbatim>PA</verbatim> to
+place PEI panel (<ref-container><label>1</label><graphic-ref ref-id="CHDCGAEB" callout="1"></graphic-ref></ref-container>)
+call on hold. Ensure CCP <verbatim>PEI ACTIVATED</verbatim> LED
+indicator is ON (yellow) and PEI activity LED indicator (<ref-container><label>3</label><graphic-ref ref-id="CHDCGAEB" callout="3"></graphic-ref></ref-container>)
+is ON (yellow). </para></step><step><para reuse="all">Speak near PEI microphone grill (<ref-container><label>4</label><graphic-ref ref-id="CHDCGAEB" callout="4"></graphic-ref></ref-container>).
+Ensure PEI microphone audio is not heard on activated CCP. </para></step><step><para reuse="all">Using NJ Transit standard coach key, turn
+activated CCP rotary selector switch to position <verbatim>PEI</verbatim>.
+Ensure Activated CCP <verbatim>PEI ACTIVATED</verbatim> LED indicator
+is ON (green) and PEI activity LED indicator (<ref-container><label>3</label><graphic-ref ref-id="CHDCGAEB" callout="3"></graphic-ref></ref-container>)
+is ON (green). </para></step><step><para reuse="all">Speak near PEI microphone grill (<ref-container><label>4</label><graphic-ref ref-id="CHDCGAEB" callout="4"></graphic-ref></ref-container>).
+Ensure PEI microphone audio is heard on activated CCP. </para></step><step><para reuse="all">Using NJ Transit standard coach key, turn
+activated CCP rotary selector switch to position <verbatim>OFF</verbatim> to
+cancel PEI call. Ensure CCP1 <verbatim>PEI ACTIVATED</verbatim> LED
+indicator is OFF and PEI activity LED indicator (<ref-container><label>3</label><graphic-ref ref-id="CHDCGAEB" callout="3"></graphic-ref></ref-container>)
+is OFF. </para></step><step><para reuse="all">Speak near PEI microphone grill (<ref-container><label>4</label><graphic-ref ref-id="CHDCGAEB" callout="4"></graphic-ref></ref-container>).
+Ensure PEI microphone audio is not heard on activated CCP. </para></step><step><para reuse="all">If testing toilet PEI (PEI5, in C Cars
+and S Cars), exercise External Push-to-call (EPTC) pushbutton associated
+with PEI5. </para></step></activity><follow-on-tasks><para reuse="all">None</para></follow-on-tasks></task></ib>
